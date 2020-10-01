@@ -1,0 +1,16 @@
+/*这是主页的css文件*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+html,
+body {
+  width: 100%;
+}
