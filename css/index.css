@@ -114,5 +114,8 @@ body {
   left: -80px;
 }
 .jh .jh-main {
-  width: ;
+  width: 850px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
