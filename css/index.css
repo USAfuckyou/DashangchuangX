@@ -31,7 +31,7 @@ body {
 }
 .nh-main .nh-box {
   width: 100%;
-  background-color: #FC1A4D;
+  background-color: #fc1a4d;
   padding: 10px 5px;
 }
 .nh-main .nh-box .nh-box1 {
@@ -60,7 +60,7 @@ body {
 .nh-main .nh-box .ms header p {
   font-size: 13px;
   font-size: 楷体;
-  color: #FED00E;
+  color: #fed00e;
 }
 .nh-main .nh-box .ms header a {
   border: 1px solid white;
@@ -91,7 +91,7 @@ body {
 }
 .nh-main .nh-box .ms .ms-main a p:last-of-type {
   padding: 10px 0px;
-  color: #FD1B4E;
+  color: #fd1b4e;
 }
 .nh-main .nh-box .ms .ms-main a p:last-of-type del {
   font-size: 10px;
@@ -107,7 +107,7 @@ body {
 .jh div {
   box-sizing: inherit;
 }
-.jh img {
+.jh > img {
   width: 108%;
   position: absolute;
   top: 0px;
@@ -115,7 +115,34 @@ body {
 }
 .jh .jh-main {
   width: 850px;
+  height: 470px;
   position: absolute;
   top: 0px;
   right: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.jh .jh-main .img1 {
+  width: 150px;
+  height: 165px;
+  margin: 10px 0px;
+}
+.jh .jh-main .img1 > a > img {
+  width: 100%;
+}
+.jh .jh-main .img2 {
+  width: 200px;
+  height: 120px;
+  margin-top: 2px;
+}
+.jh .jh-main .img2 > a > img {
+  width: 100%;
+}
+.jh .jh-main > div {
+  transition: all 0.3s;
+}
+.jh .jh-main > div:hover {
+  transform: translateY(-2px);
 }
