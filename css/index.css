@@ -112,13 +112,12 @@ body {
   position: absolute;
   top: 0px;
   left: -80px;
+  z-index: -1;
 }
 .jh .jh-main {
   width: 850px;
   height: 470px;
-  position: absolute;
-  top: 0px;
-  right: 0px;
+  float: right;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -145,4 +144,41 @@ body {
 }
 .jh .jh-main > div:hover {
   transform: translateY(-2px);
+}
+.fxhh {
+  width: 1000px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  display: flex;
+}
+.fxhh div {
+  box-sizing: inherit;
+}
+.fxhh > div {
+  flex-grow: 1;
+}
+.fxhh > div header {
+  display: flex;
+  padding: 10px 15px;
+  color: white;
+  font-family: 宋体;
+  justify-content: space-between;
+}
+.fxhh > div header h3 {
+  font-size: 15px;
+}
+.fxhh > div header span {
+  font-size: 12px;
+}
+.fxhh .fxhh-box1 {
+  margin-right: 10px;
+}
+.fxhh .fxhh-box1 header {
+  background-color: #449DAE;
+}
+.fxhh .fxhh-box2 {
+  margin-left: 10px;
+}
+.fxhh .fxhh-box2 header {
+  background-color: #A25684;
 }
