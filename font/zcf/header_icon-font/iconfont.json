@@ -1,0 +1,107 @@
+{
+  "id": "2107470",
+  "name": "其它",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6271",
+      "name": "鞋",
+      "font_class": "xie",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "688254",
+      "name": "家用电器",
+      "font_class": "jiayongdianqi",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1301391",
+      "name": "衣服",
+      "font_class": "yifu",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "5203236",
+      "name": "电脑",
+      "font_class": "diannao",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "6237091",
+      "name": "相机",
+      "font_class": "tubiaozhizuo-",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "6275225",
+      "name": "家居生活",
+      "font_class": "icon-test",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "13607867",
+      "name": "化妆",
+      "font_class": "huazhuang",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "10707179",
+      "name": "箭头 上 up",
+      "font_class": "jiantoushang",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "10707234",
+      "name": "箭头 下 down",
+      "font_class": "jiantouxia",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "9242172",
+      "name": "浏览",
+      "font_class": "iconzhengli_liulan",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "11370993",
+      "name": "订单",
+      "font_class": "dingdan-",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "12025964",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e7a6",
+      "unicode_decimal": 59302
+    },
+    {
+      "icon_id": "12975025",
+      "name": "购物车",
+      "font_class": "gouwuche1",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "1638205",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}
