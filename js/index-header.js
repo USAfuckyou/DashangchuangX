@@ -3,11 +3,31 @@ $(function(){
     $('.bm_close').click(function(){
         $('.top_banner').fadeOut();
     })
-    
+
+    //走到一定距离显示的搜索框
+    $(window).scroll(function(){
+        if($(document).scrollTop() > $('.nav_page').offset().top){
+           $('.attached-search-container').slideDown();
+        }else{
+            $('.attached-search-container').slideUp();
+        }
+    })
+
+    // 购物车的显示与隐藏
+    $('.rb_cart').hover(function(){
+        $(this).css({'border-bottom':'none'});
+        $('.cart_hover').show();
+    },function(){
+        $('.cart_hover').hide();
+        $(this).css({'height':'30px','border-bottom':'1px solid #ccc'});
+    })
+
     // 获取到商品列表
     var goodsLis = $('.hb_goods_nav').children('ol').children();
     subNav(goodsLis,{'background-color':'#000'},{'background-color':'#333'},'.goods_info');
     
+
+
     // 轮播图
     var i = 1;//用于当小圆点的下标进行控制
     $('.cc_item').click(function(){
@@ -54,6 +74,36 @@ $(function(){
         })
         $(this).addClass('activeColor');
         $('.uo_con').eq($(this).prop('temp')).addClass('active');
+    })
+
+    // 侧边功能
+    $('.aside_left').find('li').hover(function(){
+        $(this).css('background-color','#f42424');
+        $(this).find('.move_box').show();
+        $(this).find('.move_box').animate({
+            'right':'40px'
+        });
+       
+    },function(){
+        $(this).css('background-color','#000');
+        $(this).find('.move_box').hide();
+        $(this).find('.move_box').animate({
+            'right':'80px'
+        });
+    })
+
+    $('.aside_left').find('li:eq(1)').on('click',function(){
+        if(parseInt($('.aside').css('right')) < 0){
+            $(this).css('background-color','#f42424').siblings().css('background-color','#000');
+            // 点击第二个li时滑出
+            $(this).parents('.aside').animate({
+                'right':'0'
+            })
+        }else{
+            $(this).parents('.aside').animate({
+                'right':'-270px'
+            })
+        }
     })
 });
 
