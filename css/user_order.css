@@ -1,0 +1,99 @@
+/* 初始化 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+/* 初始化结束 */
+
+
+/* 最大的 */
+
+.user-content {
+    width: 1200px;
+    border: 1px solid #000;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.user-side {
+    width: 260px;
+    height: 1140px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+
+/* 用户信息 */
+
+.user-perinfo-ny {
+    background: #fff;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    height: 48px;
+    width: 198px;
+}
+
+.portrait {
+    float: left;
+}
+
+.portrait img {
+    width: 40px;
+    height: 40px;
+}
+
+.u-name {
+    float: left;
+    margin-left: 10px;
+}
+
+.u-name h2 {
+    font-size: 16px;
+    color: #8c8c8c;
+}
+
+.u-name .duanwei {
+    background: url(../img/zzh/user_rank.png);
+    background-position: -25px 0;
+    width: 90px;
+    height: 17px;
+    text-indent: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+/* 左边导航主要内容 */
+
+.user-mod {
+    height: 978px;
+    width: 200px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.user-main {
+    border: 1px solid #000;
+    width: 920px;
+}
