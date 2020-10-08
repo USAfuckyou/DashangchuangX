@@ -1,0 +1,128 @@
+.fwsheader {
+    width: 100%;
+    height: 200px;
+}
+
+.fwsheader img {
+    width: 100%;
+    height: 100%;
+}
+
+.fwscenter {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fwscenter img {
+    width: 45%;
+    height: 50%;
+}
+
+.h3 {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #555;
+}
+
+.pone {
+    font-size: 18px;
+    color: #f42424;
+}
+
+.imgone {
+    width: 220px;
+    height: 220px;
+}
+
+.btn {
+    width: 220px;
+    margin: 10px 0 0 0;
+    text-align: center;
+    height: 28px;
+    line-height: 15px;
+}
+
+.bone {
+    background: #f42424;
+    border-color: #f42424;
+    color: #fff;
+}
+
+.done i {
+    width: 152px !important;
+    height: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    background: #FFD07F;
+}
+
+.box {
+    width: 100%;
+    background-color: blue;
+}
+
+.boxin {
+    width: 1200px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.fone {
+    width: 240px;
+    height: 370px;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    float: left;
+}
+
+.fone:hover {
+    transform: scale(1.1);
+    border: 1px solid #0ba1e4;
+    box-shadow: 0 0 10px #eeea08;
+}
+
+.nm {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.hl {
+    background-color: #f42424;
+    color: #fff;
+}
+
+.hl strong {
+    color: #fff!important;
+}
+
+.hh {
+    float: left;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hh strong {
+    display: inline-block;
+    color: #555;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.hh i {
+    width: 78px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #8c8c8c;
+    border-radius: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    font-size: 12px;
+    text-align: center;
+}
