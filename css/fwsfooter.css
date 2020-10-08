@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#footer {
+    width: 100%;
+    height: 320px;
+    background-color: #262626;
+    color: white;
+}
+
+.fwsfooter {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.fwsfooter ul {
+    width: 75%;
+    height: 185px;
+    border-bottom: 1px solid white;
+    float: left;
+}
+
+.fwsfooter ul li {
+    float: left;
+    width: 130px;
+    margin-right: 50px;
+}
+
+.fwsfooter ul li span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.fwsfooter ul li span:hover {
+    color: #e21717;
+}
+
+.fwsfright {
+    width: 25%;
+    height: 185px;
+    float: left;
+    border-bottom: 1px solid white;
+}
+
+.fwsfright span {
+    display: inline-block;
+    width: 120px;
+    height: 146px;
+    text-align: center;
+    color: white;
+    float: left;
+    border-bottom: 2px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.fwsfright span img {
+    width: 120px;
+    height: 120px;
+}
+
+.fwsringt {
+    margin-right: 50px;
+}
+
+.fwsfd {
+    width: 100%;
+    height: 60px;
+    float: left;
+    padding: 20px 0px;
+}
+
+.fwsfp1 {
+    width: 70%;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.fwsfp1 span {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    color: #888888;
+    text-align: center;
+}
+
+.fwsfp2 {
+    width: 40%;
+}
+
+.fwsfp1 span:hover {
+    color: rgb(255, 0, 34);
+}
+
+.fwsfp2 span {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
