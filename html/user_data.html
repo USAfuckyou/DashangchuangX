@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-30 16:00:21
- * @LastEditTime: 2020-10-08 16:20:53
+ * @LastEditTime: 2020-10-08 17:49:57
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \8yue\DASHANGCHUANG\DashangchuangX\html\user_order.html
@@ -12,7 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>用户界面</title>
+    <title>用户信息</title>
     <link rel="stylesheet" href="../css/user_order.css">
 </head>
 
@@ -41,7 +41,7 @@
                     </dt>
                     <dd>
                         <p>
-                            <a href="../html/user_order.html" class="mod-active">我的订单</a>
+                            <a href="../html/user_order.html">我的订单</a>
                         </p>
                         <p>
                             <a href="../html/user_address.html">收获地址</a>
@@ -61,7 +61,7 @@
                     </dt>
                     <dd>
                         <p>
-                            <a href="../html/user_data.html">用户信息</a>
+                            <a href="../html/user_data.html" class="mod-active">用户信息</a>
                         </p>
                         <p>
                             <a href="">账户安全</a>
@@ -157,55 +157,119 @@
         <!-- 主题123 -->
         <div class="user-main">
             <div class="user-tittle">
-                <h2>我的订单</h2>
+                <h2>用户信息</h2>
                 <ul class="user-tabs">
-                    <li> <a href="#" class="active">全部订单(0)</a> </li>
-                    <li> <a href="#">待付款(0)</a> </li>
-                    <li> <a href="#">待收货(0)</a> </li>
-                    <li> <a href="#">已完成(0)</a> </li>
+                    <li> <a href="#" class="active">用户信息</a> </li>
+                    <li> <a href="#">操作日志</a> </li>
                 </ul>
             </div>
-            <div class="user-list-tittle">
-                <div class="user-list-filter">
-                    <div class="our-status">
-                        <div class="cite">
-                            <em>全部状态</em>
-                            <span>+</span>
+            <!-- 用户名 -->
+            <div class="user-profile-info">
+                <div class="user-item">
+                    <form action="">
+                        <div class="item">
+                            <div class="label">用户名:</div>
+                            <div class="value">
+                                <span class="txt-lh2">sc52c5216014559</span>
+                            </div>
                         </div>
-                        <ul>
-                            <li>全部状态</li>
-                            <li>待付款</li>
-                            <li>待发货</li>
-                            <li>待确认发货</li>
-                            <li>已完成</li>
-                            <li>付款中</li>
-                            <li>取消</li>
-                            <li>无效</li>
-                        </ul>
-                    </div>
-                    <div class="our-status">
-                        <div class="cite">
-                            全部状态
-                            <span>+</span>
+                        <div class="item">
+                            <div class="label">昵称:</div>
+                            <div class="value">
+                                <input type="text" value="sc52c521" class="text">
+                            </div>
                         </div>
-                        <ul>
-                            <li>全部状态</li>
-                            <li>待付款</li>
-                            <li>待发货</li>
-                            <li>待确认发货</li>
-                            <li>已完成</li>
-                            <li>付款中</li>
-                            <li>取消</li>
-                            <li>无效</li>
-                        </ul>
-                    </div>
+                        <div class="item">
+                            <div class="label">生日:</div>
+                            <div class="value">
+                                <div class="our-status">
+                                    <div class="cite ">
+                                        1999
+                                        <span>+</span>
+                                    </div>
+                                    <ul>
+                                        <li>1999</li>
+                                        <li>2000</li>
+                                        <li>2001</li>
+                                        <li>2002</li>
+                                        <li>2003</li>
+                                    </ul>
+                                </div>
+                                <div class="our-status">
+                                    <div class="cite ">
+                                        1
+                                        <span>+</span>
+                                    </div>
+                                    <ul>
+                                        <li>1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                        <li>5</li>
+                                        <li>6</li>
+                                        <li>7</li>
+                                        <li>8</li>
+                                        <li>9</li>
+                                        <li>10</li>
+                                        <li>11</li>
+                                        <li>12</li>
+                                    </ul>
+                                </div>
+                                <div class="our-status">
+                                    <div class="cite ">
+                                        1
+                                        <span>+</span>
+                                    </div>
+                                    <ul>
+                                        <li>1</li>
+                                        <li>2</li>
+                                        <li>3</li>
+                                        <li>4</li>
+                                        <li>5</li>
+                                        <li>6</li>
+                                        <li>7</li>
+                                        <li>8</li>
+                                        <li>9</li>
+                                        <li>10</li>
+                                        <li>11</li>
+                                        <li>12</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="label">性别:</div>
+                            <div class="value">
+                                <div class="radio-item">
+                                    <input type="radio" id="sex-1" name="sex" class="ui-radio">
+                                    <label for="sex-1" class="ui-radio-label">男</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" id="sex-2" name="sex" class="ui-radio">
+                                    <label for="sex-2" class="ui-radio-label">女</label>
+                                </div>
+                                <div class="radio-item">
+                                    <input type="radio" id="sex-3" name="sex" class="ui-radio">
+                                    <label for="sex-3" class="ui-radio-label">保密</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="label">手机号:</div>
+                            <div class="value telnum">123456789101</div>
+                        </div>
+                        <div class="item">
+                            <div class="label"></div>
+                            <div class="value"><button id="senddata">提交信息</button></div>
+                        </div>
+                    </form>
+                </div>
+                <!-- 头像 -->
+                <div class="user-touxiang">
+                    <img src="../img/zzh/errorImg.gif" alt="">
                 </div>
             </div>
-            <div class="no-records">
-                <i class="no-icon">
-                </i>
-                <h3>主人你还没有买东西呢</h3>
-            </div>
+
         </div>
     </div>
 
