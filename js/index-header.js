@@ -23,7 +23,7 @@ $(function(){
     })
 
     // 获取到商品列表
-    var goodsLis = $('.hb_goods_nav').children('ol').children();
+    var goodsLis = $('.hb_content>.hb_goods_nav').children('ol').children();
     subNav(goodsLis,{'background-color':'#000'},{'background-color':'#333'},'.goods_info');
     
 
@@ -92,6 +92,7 @@ $(function(){
         });
     })
 
+    // 控制滑入滑出
     $('.aside_left').find('li:eq(1)').on('click',function(){
         if(parseInt($('.aside').css('right')) < 0){
             $(this).css('background-color','#f42424').siblings().css('background-color','#000');
@@ -104,6 +105,28 @@ $(function(){
                 'right':'-270px'
             })
         }
+    });
+
+    // 滑出是点击关闭按钮关闭
+    $('.ar_close').click(function(){
+        $(this).parents('.aside').animate({
+            'right':'-270px'
+        })
     })
+
+    // 头部滑出的导航栏————商品分类的下拉菜单
+    $('.hb_title').mouseover(function(){
+        $(this).find('.hb_goods_nav').show();
+        // 获取到商品列表
+        var goodsLis = $('.hb_title>.hb_goods_nav').children('ol').children();
+        subNav(goodsLis,{'background-color':'#000'},{'background-color':''},'.goods_info');
+        
+    })
+    $('.hb_title').mouseout(function(){
+        $(this).find('.hb_goods_nav').hide();
+    })
+    
+
+
 });
 
