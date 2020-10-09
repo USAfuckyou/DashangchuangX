@@ -24,6 +24,7 @@ body {
 #enlarge{
   transform: scale(1.2);
   margin-top: 300px;
+  /* margin-bottom: 300px; */
 }
 
 .nh-main {
