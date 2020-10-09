@@ -4,12 +4,311 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>家用电器</title>
     <script src="../js/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="../css/electric.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/public-header.css">
+    <!-- 底部样式 -->
+    <link rel="stylesheet" href="../css/fwsfooter.css" />
+    <link rel="stylesheet" href="../font/zcf/header_icon-font/iconfont.css">
 </head>
 
 <body>
+
+    <!-- 头部 -->
+    <header style="border-bottom: none;">
+        <!-- 头部的上部分 -->
+        <div class="rc_top">
+            <div class="rc_top_bar">
+                <ul>
+                    <li class="li_addstyle">
+                        <i class="iconfont icon-weizhi"></i>
+                        <a href="#">郑州市</a>
+                        <div>
+                            <img src="../img/zcf/loadGoods.gif" alt="">
+                        </div>
+                    </li>
+                    <li class="hea_login">
+                        <a href="#">请登录</a>
+                    </li>
+                    <li class="hea_register">
+                        <a href="#">免费注册</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="../html/user_order.html">我的订单</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="../html/user_order.html">我的浏览</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="../html/user_order.html">我的收藏</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="../html/user_order.html">客户服务</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        网站导航
+                        <i class="iconfont icon-jiantouxia"></i>
+                        <div class="web_nav">
+                            <div>
+                                <ul>
+                                    <li>
+                                        <h3>特色主题</h3>
+                                    </li>
+                                    <li><a href="">家用电器</a></li>
+                                    <li><a href="">男装怒装</a></li>
+                                    <li><a href="">鞋靴箱包</a></li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <h3>促销活动</h3>
+                                    </li>
+                                    <li><a href="">拍卖活动</a></li>
+                                    <li><a href="">CMS频道</a></li>
+                                    <li><a href="">优惠券</a></li>
+                                </ul>
+                                <ul class="web_nav_style">
+                                    <li><a href="">共创商品</a></li>
+                                    <li><a href="">优惠活动</a></li>
+                                    <li><a href="">礼品卡</a></li>
+                                </ul>
+                                <ul class="web_nav_style">
+                                    <li><a href="">积分商城</a></li>
+                                    <li><a href="">超值礼包</a></li>
+                                    <li><a href="">预售商品</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_top">
+            <div class="left_logo">
+                <a href="../index.html"><img src="../img/zcf/shop_logo.gif" alt=""></a>
+            </div>
+            <div class="right_con">
+                <!-- 搜索商品 和店铺 -->
+                <div class="rc_bottom">
+                    <div class="rb_left">
+                        <div class="search_oper">
+                            <div class="search_inp">
+                                <input type="text" placeholder="手机">
+                            </div>
+                            <div class="search_goods">搜商品</div>
+                            <div class="search_shop">搜店铺</div>
+                            <ul>
+                                <li><a href="#">周大福</a></li>
+                                <li><a href="#">内衣</a></li>
+                                <li><a href="#">Five Plus</a></li>
+                                <li><a href="#">手机</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rb_right">
+                        <div class="rb_cart">
+                            <i class="iconfont icon-gouwuche1"></i> 我的购物车
+                            <span>0</span>
+                        </div>
+                        <div class="cart_hover">
+                            <img src="../img/zcf/cart-nogoods.png" alt="">
+                            <span>购物车中还没有商品，赶紧选吧！</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 商品分类 -->
+        <div class="hea_bottom">
+            <div class="hb_title">
+                <div class="hb_package">
+                    <div class="type_goods jiadian_goods">
+                        <a href="#">家用电器</a>
+                    </div>
+                    <div class="cn_goods_nav">
+                        <div class="categorys-item">
+                            <div class="item-content">
+                                <div class="categorys-title">
+                                    <h5>家用电器</h5>
+                                    <span>
+                                        <a href="#">电饭煲</a>
+                                        <a href="#">电压力锅</a>
+                                        <a href="#">豆浆机</a>
+                                    </span>
+                                </div>
+                                <span class="jiadian_arrow"></span>
+                            </div>
+                            <div class="categorys-items-layer">
+                                <div class="cil_content">
+                                    <h3>家用电器</h3>
+                                    <ol>
+                                        <li><a href="">电饭煲</a></li>
+                                        <li><a href="">电压力锅</a></li>
+                                        <li><a href="">豆浆机</a></li>
+                                        <li><a href="">面包机</a></li>
+                                        <li><a href="">咖啡机</a></li>
+                                        <li><a href="">微波炉</a></li>
+                                        <li><a href="">料理/榨汁机</a></li>
+                                        <li><a href="">电烤箱</a></li>
+                                        <li><a href="">电磁炉</a></li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categorys-item">
+                            <div class="item-content">
+                                <div class="categorys-title">
+                                    <h5>大家电</h5>
+                                    <span>
+                                        <a href="#">平板电脑</a>
+                                        <a href="#">空调</a>
+                                        <a href="#">冰箱</a>
+                                    </span>
+                                </div>
+                                <span class="jiadian_arrow"></span>
+                            </div>
+                            <div class="categorys-items-layer">
+                                <div class="cil_content">
+                                    <h3>大家电</h3>
+                                    <ol>
+                                        <li><a href="">平板电脑</a></li>
+                                        <li><a href="">空调</a></li>
+                                        <li><a href="">冰箱</a></li>
+                                    </ol>
+                                </div>
+                                <img src="../img/zcf/catetop1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="categorys-item">
+                            <div class="item-content">
+                                <div class="categorys-title">
+                                    <h5>个人健康</h5>
+                                    <span>
+                                        <a href="#">按摩椅</a>
+                                        <a href="#">剃须刀</a>
+                                        <a href="#">脱毛器</a>
+                                    </span>
+                                </div>
+                                <span class="jiadian_arrow"></span>
+                            </div>
+                            <div class="categorys-items-layer">
+                                <div class="cil_content">
+                                    <h3>个人健康</h3>
+                                    <ol>
+                                        <li><a href="">按摩椅</a></li>
+                                        <li><a href="">剃须刀</a></li>
+                                        <li><a href="">脱毛器</a></li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categorys-item">
+                            <div class="item-content">
+                                <div class="categorys-title">
+                                    <h5>五金家装</h5>
+                                    <span>
+                                        <a href="#">电动工具</a>
+                                        <a href="#">仪表</a>
+                                        <a href="#">水槽</a>
+                                    </span>
+                                </div>
+                                <span class="jiadian_arrow"></span>
+                            </div>
+                            <div class="categorys-items-layer">
+                                <div class="cil_content">
+                                    <h3>五金家装</h3>
+                                    <ol>
+                                        <li><a href="">电饭煲</a></li>
+                                        <li><a href="">电压力锅</a></li>
+                                        <li><a href="">豆浆机</a></li>
+                                        <li><a href="">面包机</a></li>
+                                        <li><a href="">咖啡机</a></li>
+                                        <li><a href="">微波炉</a></li>
+                                        <li><a href="">料理/榨汁机</a></li>
+                                        <li><a href="">电烤箱</a></li>
+                                        <li><a href="">电磁炉</a></li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="categorys-item">
+                            <div class="item-content">
+                                <div class="categorys-title">
+                                    <h5>生活电器</h5>
+                                    <span>
+                                        <a href="#">电风扇</a>
+                                        <a href="#">冷风扇</a>
+                                        <a href="#">净化器</a>
+                                    </span>
+                                </div>
+                                <span class="jiadian_arrow"></span>
+                            </div>
+                            <div class="categorys-items-layer">
+                                <div class="cil_content">
+                                    <h3>生活电器</h3>
+                                    <ol>
+                                        <li><a href="">电饭煲</a></li>
+                                        <li><a href="">电压力锅</a></li>
+                                        <li><a href="">豆浆机</a></li>
+                                        <li><a href="">面包机</a></li>
+                                        <li><a href="">咖啡机</a></li>
+                                        <li><a href="">微波炉</a></li>
+                                        <li><a href="">料理/榨汁机</a></li>
+                                        <li><a href="">电烤箱</a></li>
+                                        <li><a href="">电磁炉</a></li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav_page">
+                    <ul>
+                        <li>
+                            <a href="../index.html" >首页</a>
+                        </li>
+                        <li>
+                            <a href="#">个护美妆</a>
+                        </li>
+                        <li>
+                            <a href="../html/clothing.html">服装城</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav_active">家用电器</a>
+                        </li>
+                        <li>
+                            <a href="#">鞋靴箱包</a>
+                        </li>
+                        <li>
+                            <a href="#">聚划算</a>
+                        </li>
+                        <li>
+                            <a href="#">预售</a>
+                        </li>
+                        <li>
+                            <a href="#">店铺街</a>
+                        </li>
+                        <li>
+                            <a href="#">品牌专区</a>
+                        </li>
+                        <li>
+                            <a href="#">公告</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <!-- 轮播图 -->
     <div class="l_anv">
         <div class="l_box">
@@ -1267,7 +1566,206 @@
             <div><span>^</span></div>
         </ul>
     </div>
+
+    <!-- 底部 -->
+    <div id="footer" class="foo-init">
+        <div class="fotop">
+            <div class="fotopxin">
+                <div class="ll">
+                    <i class="f-cn cha"></i>
+                    <span>七天包退</span>
+                </div>
+
+                <div class="ll">
+                    <i class="f-cn f-on1 cha"></i>
+                    <span>正品保障</span>
+                </div>
+
+                <div class="ll">
+                    <i class="f-cn f-on2 cha"></i>
+                    <span>好评如潮</span>
+                </div>
+
+                <div class="ll">
+                    <i class="f-cn f-on3 cha"></i>
+                    <span>闪电发货</span>
+                </div>
+
+                <div class="ll">
+                    <i class="f-cn f-on4 cha"></i>
+                    <span>权威荣耀</span>
+                </div>
+
+                <div class="ll mm">
+                    <i class="f-cn f-on5 cha "></i>
+                    <span>4001-021-758</span>
+                    <div style="display: none;"></div>
+                </div>
+
+                <div class="ll mn">
+                    <i class="f-cn f-on6 cha"></i>
+                    <span>咨询客服</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="fwsfooter">
+            <ul>
+                <li>
+                    <h2>新手上路</h2>
+                    <span>售后流程</span><br>
+                    <span>购物流程</span><br>
+                    <span>订购方式</span><br>
+                    <span></span><br>
+                </li>
+                <li>
+                    <h2>配送与支付</h2>
+                    <span>货到付款区域</span><br>
+                    <span>配送支付智能查询</span><br>
+                    <span>订购方式说明</span><br>
+                    <span></span><br></li>
+                <li>
+                    <h2>服务保证</h2>
+                    <span>退换货原则</span><br>
+                    <span>售后服务保证</span><br>
+                    <span>产品质量保证</span><br>
+                    <span></span><br></li>
+                <li>
+                    <h2>联系我们</h2>
+                    <span>网站故障报告</span><br>
+                    <span>选机咨询</span><br>
+                    <span>投诉与建议</span><br>
+                    <span></span><br></li>
+                <li>
+                    <h2>会员中心</h2>
+                    <span>资金管理</span><br>
+                    <span>我的收藏</span><br>
+                    <span>我的订单</span><br>
+                    <span></span><br></li>
+            </ul>
+            <div class="fwsfright">
+                <span class="fwsringt"><img src="../img/fws/fimg/ecjia_qrcode.jpg">
+                    关注微信
+                    </span>
+                <span><img src="../img/fws/fimg/ectouch_qrcode.jpg">
+                    下载APP
+                    </span>
+
+            </div>
+
+            <div class="fwsfd">
+                <div class="fwsfp1"><span>首页</span>|<span>隐私保护</span>|<span>联系我们</span>|<span>免费条款</span>|<span>公司简介</span>|<span>商家入驻</span>|<span>供应商入住</span>|<span>意见反馈</span></div>
+                <div class="fwsfp1 fwsfp2"><span>b2b2c</span>|&nbsp;&nbsp;&nbsp;<span>多用户商城系统</span>&nbsp;&nbsp;&nbsp;|<span>商城系统</span>|<span>ecjia新零售</span></div>
+            </div>
+        </div>
+    </div>
+    <!-- 侧边功能 -->
+    <div class="aside">
+        <div class="aside_left">
+            <ul>
+                <li class="al_user">
+                    <a href=""><img src="../img/zcf/用户.png" alt=""></a>
+                </li>
+                <li class="al_shopCart">
+                    <a href="#">
+                        <i class="iconfont icon-gouwuche"></i>
+                        <p>购</p>
+                        <p>物</p>
+                        <p>车</p>
+                        <span>0</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/订单.png" alt="">
+                        <div class="move_box">
+                            我的订单
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/我的优惠卷.png" alt="">
+                        <div class="move_box">
+                            优惠券
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/资产.png" alt="">
+                        <div class="move_box">
+                            我的资产
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/浏览.png" alt="">
+                        <div class="move_box">
+                            我的足迹
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/收藏.png" alt="">
+                        <div class="move_box">
+                            我的收藏
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/信息.png" alt="">
+                        <div class="move_box">
+                            邮箱订阅
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../img/zcf/用户.png" alt="">
+                        <div class="move_box">
+                            客服中心
+                            <span></span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="aside_right">
+            <div class="ar_title">
+                <span>购物车</span>
+                <span class="ar_close"><i>X</i></span>
+            </div>
+            <div class="ar_content">
+                <div>
+                    <p><img src="../img/zcf/cart-nogoods.png" alt=""></p>
+                    <p>购物车空空的，赶快去挑选心仪的商品吧~</p>
+                    <p><a href="../index.html">去首页看看</a></p>
+                </div>
+            </div>
+            <div class="ar_foo">
+                <div class="ar_foo_top">
+                    <span>共<i>0</i>件商品</span>
+                    <span>￥<i>0.00</i></span>
+                </div>
+                <div class="ar_foo_btn">
+                    <button type="button">去购物车结算</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="../js/electric.js"></script>
+    <script src="../js/public-header.js"></script>
+    <script src="../js/zcf-util.js"></script>
 </body>
 
 </html>
