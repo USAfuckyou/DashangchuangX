@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-30 16:00:21
- * @LastEditTime: 2020-10-09 15:56:11
+ * @LastEditTime: 2020-10-09 16:00:21
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \8yue\DASHANGCHUANG\DashangchuangX\html\user_order.html
@@ -12,9 +12,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>收货地址</title>
+    <title>我的红包</title>
     <link rel="stylesheet" href="../css/user_order.css">
-    <link rel="stylesheet" href="../font/zzh/font_zcnz8bibd6/iconfont.css">
 </head>
 
 <body>
@@ -51,7 +50,7 @@
                             <a href="../html/user_quehuo.html">缺货等级</a>
                         </p>
                         <p>
-                            <a href="../html/user_tuihuan.html" class="mod-active">退还货订单</a>
+                            <a href="../html/user_tuihuan.html">退还货订单</a>
                         </p>
                     </dd>
                 </dl>
@@ -106,7 +105,7 @@
                     </dt>
                     <dd>
                         <p>
-                            <a href="../html/user_bonus.html">我的红包</a>
+                            <a href="../html/user_bonus.html" class="mod-active">我的红包</a>
                         </p>
                         <p>
                             <a href="">我的优惠券</a>
@@ -158,16 +157,68 @@
         <!-- 主题123 -->
         <div class="user-main">
             <div class="user-tittle">
-                <h2>退换货订单</h2>
-                <h3>您有<span>0</span>件退换货商品</h3>
+                <h2>我的红包</h2>
             </div>
-            <div class="no-records">
-                <i class="no-icon">
+            <!-- 用户名 -->
+            <div class="user-profile-info">
+                <div class="user-item">
+                    <form action="">
+                        <div class="part1 clearfix">
+                            <div class="item">
+                                <div class="label">
+                                    <span class="red">*</span> 红包卡号:
+                                </div>
+                                <div class="value">
+                                    <input type="text" class="text t-bonus" width="300">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="label">
+                                    <span class="red">*</span> 红包密码:
+                                </div>
+                                <div class="value">
+                                    <input type="text" class="text t-bonus" width="300">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="label">验证码:</div>
+                                <div class="value">
+                                    <input type="text" class="text" width="300">
+                                    <div id="yanzhengma" class="text">1221</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="label"></div>
+                                <div class="value"><button id="senddata">绑定到当前账户</button></div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <ul class="user-tabs tab1">
+                    <li> <a href="#" class="active">可用(0)</a> </li>
+                    <li> <a href="#">即将到期(0)</a> </li>
+                    <li> <a href="#">已用完(0)</a> </li>
+                    <li> <a href="#">已过期(0)</a> </li>
+                </ul>
+
+                <div class="no-records">
+                    <i class="no-icon">
                 </i>
-                <h3>主人你还没有买东西呢</h3>
+                    <h3>主人你还没有红包哦！</h3>
+                </div>
+                <div class="user-prompt">
+                    <span class="tit">我的红包温馨提示</span>
+                    <i>↓</i>
+                    <p>1、在上面输入红包卡号密码进行绑定或查询</p>
+                    <p>2、如果您持有旧版红包（卡号为19位），激活后请在" <span>我的红包</span> "中查询可用红包余额。</p>
+                </div>
+
             </div>
+
         </div>
     </div>
+
     <script src="../js/jquery-3.5.1.js"></script>
     <script src="../js/user_order.js"></script>
 </body>

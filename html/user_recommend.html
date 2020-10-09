@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-30 16:00:21
- * @LastEditTime: 2020-10-09 15:56:11
+ * @LastEditTime: 2020-10-09 15:58:51
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \8yue\DASHANGCHUANG\DashangchuangX\html\user_order.html
@@ -12,9 +12,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>收货地址</title>
+    <title>分销推荐</title>
     <link rel="stylesheet" href="../css/user_order.css">
-    <link rel="stylesheet" href="../font/zzh/font_zcnz8bibd6/iconfont.css">
 </head>
 
 <body>
@@ -51,7 +50,7 @@
                             <a href="../html/user_quehuo.html">缺货等级</a>
                         </p>
                         <p>
-                            <a href="../html/user_tuihuan.html" class="mod-active">退还货订单</a>
+                            <a href="../html/user_tuihuan.html">退还货订单</a>
                         </p>
                     </dd>
                 </dl>
@@ -80,7 +79,7 @@
                             <a href="../html/user_message.html">我的留言</a>
                         </p>
                         <p>
-                            <a href="../html/user_recommend.html">分销推荐</a>
+                            <a href="../html/user_recommend.html" class="mod-active">分销推荐</a>
                         </p>
                         <p>
                             <a href="">评论/晒单</a>
@@ -158,18 +157,87 @@
         <!-- 主题123 -->
         <div class="user-main">
             <div class="user-tittle">
-                <h2>退换货订单</h2>
-                <h3>您有<span>0</span>件退换货商品</h3>
+                <h2>我的推荐</h2>
             </div>
-            <div class="no-records">
+            <div class="user-list-tittle  remmend">
+                <div class="user-list-filter">
+                    <i>提示:</i> 两种推广方式，你可根据自己需求，自己选择一种方式进行推广。
+                    <a href="#">邀请流程>></a>
+                </div>
+            </div>
+            <div class="repanl">
+                <span class="rel1">
+                    方式一
+                </span>
+                <span class="rel2">
+                    下载二维码
+                </span>
+                <strong class="rel2">
+                    您可以将此二维码下载下来发送给朋友，新人好友扫码此二维码并注册
+                </strong>
+            </div>
+            <div class="recont">
+                <img src="../img/zzh/user_share_11597_qrcode.png ">
+                <button>下载二维码</button>
+            </div>
+            <div class="repanl">
+                <span class="rel1">
+                    方式二
+                </span>
+                <span class="rel2">
+                    复制链接
+                </span>
+                <strong class="rel2">
+                    您可以选择复制以下推广链接地址，发送给新人好友注册
+                </strong>
+            </div>
+            <div class="recont">
+                <button class="noma">复制链接</button>
+                <textarea name="" id="" class="aff-textarea">https://x.dscmall.cn/mobile/#/home?parent_id=11597
+                </textarea>
+            </div>
+
+            <div class="user-tittle">
+                <h2>我推荐会员</h2>
+            </div>
+            <ul class="user-frame">
+                <li>
+                    <p>已邀请好友</p>
+                    <strong class="red">0</strong>
+                </li>
+                <li>
+                    <p>总销售额</p>
+                    <strong class="red">￥0.00</strong>
+                </li>
+                <li>
+                    <p>今日收入</p>
+                    <strong class="red">￥0.00</strong>
+                </li>
+                <li>
+                    <p>累计佣金</p>
+                    <strong class="red">￥0.00</strong>
+                </li>
+                <li>
+                    <p>可提现佣金</p>
+                    <strong class="red">￥0.00</strong>
+                </li>
+            </ul>
+            <div class="user-tittle">
+                <h2>奖励明细</h2>
+            </div>
+            <ul class="user-tabs tab1">
+                <li> <a href="#" class="active">注册奖励</a> </li>
+            </ul>
+            <div class="no-records recodrs1">
                 <i class="no-icon">
                 </i>
                 <h3>主人你还没有买东西呢</h3>
             </div>
         </div>
     </div>
-    <script src="../js/jquery-3.5.1.js"></script>
-    <script src="../js/user_order.js"></script>
+
+    <script src="../js/jquery-3.5.1.js "></script>
+    <script src="../js/user_order.js "></script>
 </body>
 
 </html>
