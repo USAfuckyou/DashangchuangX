@@ -18,6 +18,10 @@ li {
     list-style: none;
 }
 
+i {
+    font-style: normal;
+}
+
 
 /* 初始化结束 */
 
@@ -597,4 +601,337 @@ li {
 
 .bind-qq-fot i {
     font-size: 12px;
+}
+
+
+/* 我的留言 */
+
+.red {
+    color: #f42424;
+    margin-right: 2px;
+}
+
+textarea {
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #d2d2d2;
+    resize: none;
+    float: left;
+}
+
+.value .textarea {
+    width: 570px;
+    height: 120px;
+}
+
+.value .file {
+    display: block;
+    width: 90px;
+    height: 28px;
+    margin-top: 10px;
+    background: #f42424;
+    border-color: #f42424;
+    color: #fff;
+    outline: none;
+    border: 1px solid red;
+}
+
+.filebtn {
+    position: relative;
+    overflow: hidden;
+    color: #8c8c8c;
+}
+
+.filebtn p {
+    margin-top: 10px;
+}
+
+#yanzhengma {
+    float: left;
+    cursor: pointer;
+}
+
+
+/* 分销推荐 */
+
+.remmend {
+    background-color: #fbf6de;
+    color: #8c8c8c;
+    font-size: 12px;
+}
+
+.remmend i {
+    font-size: 15px;
+    font-weight: 700;
+    padding-right: 5px;
+    font-style: normal;
+}
+
+.remmend a {
+    font-size: 15px;
+    font-weight: 700;
+    color: #FF8800;
+}
+
+.repanl {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px 0;
+    line-height: 50px;
+}
+
+.rel1 {
+    width: 60px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 0px 5px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    line-height: 20px;
+    float: left;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.rel2 {
+    float: left;
+    margin: 0 18px 0 14px;
+    color: #8c8c8c;
+    line-height: 50px;
+    font-size: 12px;
+}
+
+.recont {
+    width: 100%;
+    height: 200px;
+}
+
+.recont img {
+    width: 200h;
+    height: 200px;
+    float: left;
+}
+
+.recont button {
+    /* width: 85px; */
+    height: 35px;
+    line-height: 35px;
+    margin-left: 10px;
+    background: #FF8800;
+    border: none;
+    color: white;
+    margin-left: 50px;
+    float: left;
+    padding: 0px 20px;
+}
+
+.noma {
+    margin: 20px 0!important;
+    height: 35px;
+    line-height: 35px;
+    background: #FF8800;
+    border: none;
+    color: white;
+    padding: 0px 20px;
+    margin-bottom: 30px;
+}
+
+.aff-textarea {
+    width: 90%;
+    height: 60px;
+    border: 2px dashed #d2d2d2;
+    line-height: 60px;
+    resize: none;
+    outline: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #555;
+}
+
+.user-frame {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.user-frame li {
+    padding: 16px 0;
+    width: 140px;
+    height: 46px;
+    border: 1px solid #d2d2d2;
+    color: #8c8c8c;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.tab1 {
+    width: 100%;
+    height: 32px;
+    border-bottom: 1px solid #d1d1d1;
+    float: none;
+}
+
+.recodrs1 {
+    padding: 35px 0 0px 130px !important;
+}
+
+
+/* 我的红包 */
+
+.t-bonus {
+    width: 250px;
+}
+
+.part1 {
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: ".";
+    height: 0px;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.user-prompt {
+    color: #8c8c8c;
+    margin-top: 20px;
+}
+
+.user-prompt .tit {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.user-prompt p {
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.user-prompt p span {
+    color: rgb(74, 194, 241);
+}
+
+
+/* 资金管理 */
+
+.account-price {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.account-price strong {
+    font-size: 14px;
+    font-weight: bold;
+    color: #8c8c8c;
+    margin-right: 10px;
+}
+
+.account-price .a-price {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f42424;
+    vertical-align: middle;
+    height: 48px;
+    line-height: 48px;
+}
+
+.account-btn {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.account-btn .sc-btn {
+    display: inline-block;
+    padding: 0 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #000;
+    background: #f42424;
+    border-color: #f42424;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.account-btn .sc-btn2 {
+    background-color: #fff;
+    color: #333;
+    border-color: #ccc;
+}
+
+.fund-frame {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.fund-frame li {
+    width: 22%;
+}
+
+.fund-prompt {
+    margin-bottom: 30px;
+}
+
+.account-open-list {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #8c8c8c;
+}
+
+.account-open-list table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #d2d2d2;
+    font-size: 14px;
+}
+
+.account-open-list table thead {
+    background-color: #f8f8f8;
+}
+
+.account-open-list table th {
+    text-align: left;
+    padding: 10px 20px;
+    font-weight: normal;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.account-open-list table tbody {
+    text-align: center;
+}
+
+.account-open-list table tbody td {
+    padding: 10px 0;
+}
+
+
+/* 我的白条 */
+
+.allacc {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.acc1 {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.acc1 strong {
+    font-size: 14px;
+}
+
+.acc1 span em {
+    font-style: normal;
 }

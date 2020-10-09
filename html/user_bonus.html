@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-30 16:00:21
- * @LastEditTime: 2020-10-09 15:59:27
+ * @LastEditTime: 2020-10-09 16:00:21
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \8yue\DASHANGCHUANG\DashangchuangX\html\user_order.html
@@ -12,7 +12,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>用户界面</title>
+    <title>我的红包</title>
     <link rel="stylesheet" href="../css/user_order.css">
 </head>
 
@@ -41,7 +41,7 @@
                     </dt>
                     <dd>
                         <p>
-                            <a href="../html/user_order.html" class="mod-active">我的订单</a>
+                            <a href="../html/user_order.html">我的订单</a>
                         </p>
                         <p>
                             <a href="../html/user_address.html">收获地址</a>
@@ -105,7 +105,7 @@
                     </dt>
                     <dd>
                         <p>
-                            <a href="../html/user_bonus.html">我的红包</a>
+                            <a href="../html/user_bonus.html" class="mod-active">我的红包</a>
                         </p>
                         <p>
                             <a href="">我的优惠券</a>
@@ -157,55 +157,65 @@
         <!-- 主题123 -->
         <div class="user-main">
             <div class="user-tittle">
-                <h2>我的订单</h2>
-                <ul class="user-tabs">
-                    <li> <a href="#" class="active">全部订单(0)</a> </li>
-                    <li> <a href="#">待付款(0)</a> </li>
-                    <li> <a href="#">待收货(0)</a> </li>
-                    <li> <a href="#">已完成(0)</a> </li>
-                </ul>
+                <h2>我的红包</h2>
             </div>
-            <div class="user-list-tittle">
-                <div class="user-list-filter">
-                    <div class="our-status">
-                        <div class="cite">
-                            <em>全部状态</em>
-                            <span>+</span>
+            <!-- 用户名 -->
+            <div class="user-profile-info">
+                <div class="user-item">
+                    <form action="">
+                        <div class="part1 clearfix">
+                            <div class="item">
+                                <div class="label">
+                                    <span class="red">*</span> 红包卡号:
+                                </div>
+                                <div class="value">
+                                    <input type="text" class="text t-bonus" width="300">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="label">
+                                    <span class="red">*</span> 红包密码:
+                                </div>
+                                <div class="value">
+                                    <input type="text" class="text t-bonus" width="300">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="label">验证码:</div>
+                                <div class="value">
+                                    <input type="text" class="text" width="300">
+                                    <div id="yanzhengma" class="text">1221</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="label"></div>
+                                <div class="value"><button id="senddata">绑定到当前账户</button></div>
+                            </div>
                         </div>
-                        <ul>
-                            <li>全部状态</li>
-                            <li>待付款</li>
-                            <li>待发货</li>
-                            <li>待确认发货</li>
-                            <li>已完成</li>
-                            <li>付款中</li>
-                            <li>取消</li>
-                            <li>无效</li>
-                        </ul>
-                    </div>
-                    <div class="our-status">
-                        <div class="cite">
-                            全部状态
-                            <span>+</span>
-                        </div>
-                        <ul>
-                            <li>全部状态</li>
-                            <li>待付款</li>
-                            <li>待发货</li>
-                            <li>待确认发货</li>
-                            <li>已完成</li>
-                            <li>付款中</li>
-                            <li>取消</li>
-                            <li>无效</li>
-                        </ul>
-                    </div>
+
+                    </form>
                 </div>
-            </div>
-            <div class="no-records">
-                <i class="no-icon">
+                <ul class="user-tabs tab1">
+                    <li> <a href="#" class="active">可用(0)</a> </li>
+                    <li> <a href="#">即将到期(0)</a> </li>
+                    <li> <a href="#">已用完(0)</a> </li>
+                    <li> <a href="#">已过期(0)</a> </li>
+                </ul>
+
+                <div class="no-records">
+                    <i class="no-icon">
                 </i>
-                <h3>主人你还没有买东西呢</h3>
+                    <h3>主人你还没有红包哦！</h3>
+                </div>
+                <div class="user-prompt">
+                    <span class="tit">我的红包温馨提示</span>
+                    <i>↓</i>
+                    <p>1、在上面输入红包卡号密码进行绑定或查询</p>
+                    <p>2、如果您持有旧版红包（卡号为19位），激活后请在" <span>我的红包</span> "中查询可用红包余额。</p>
+                </div>
+
             </div>
+
         </div>
     </div>
 
