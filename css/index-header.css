@@ -119,12 +119,42 @@ html,body{
     right: -15px;
 }
 
+/* 左边跳楼效果 */
+header>.lift_list{
+    width: 72px;
+    height: 254px;
+    position: fixed;
+    top: 50%;
+    left: 35px;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background-color: #fff;
+    display: none;
+}
+header>.lift_list ul li{
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+header>.lift_list ul li:hover{
+    background-color: #ff4040;
+    color: #fff;
+}
+header>.lift_list .active{
+    background-color: #ff4040;
+    color: #fff;
+}
 
 /* header start */
 body>header{
     width: 100%;
     background: url(../img/zcf/confile_1598909475.png) no-repeat center -75px ;
     background-color: #f5f6fA;
+    position: relative;
 }
 .header_top{
     width: 1200px;
@@ -694,6 +724,9 @@ body>header{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+.aside_left ul li:hover{
+    background-color: #f42424;
 }
 .aside_left ul li{
     width: 100%;

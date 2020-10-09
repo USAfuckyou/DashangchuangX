@@ -78,14 +78,12 @@ $(function(){
 
     // 侧边功能
     $('.aside_left').find('li').hover(function(){
-        $(this).css('background-color','#f42424');
         $(this).find('.move_box').show();
         $(this).find('.move_box').animate({
             'right':'40px'
         });
        
     },function(){
-        $(this).css('background-color','#000');
         $(this).find('.move_box').hide();
         $(this).find('.move_box').animate({
             'right':'80px'
@@ -95,15 +93,16 @@ $(function(){
     // 控制滑入滑出
     $('.aside_left').find('li:eq(1)').on('click',function(){
         if(parseInt($('.aside').css('right')) < 0){
-            $(this).css('background-color','#f42424').siblings().css('background-color','#000');
             // 点击第二个li时滑出
             $(this).parents('.aside').animate({
                 'right':'0'
             })
+            $(this).css('background-color','#f00');
         }else{
             $(this).parents('.aside').animate({
                 'right':'-270px'
             })
+            $(this).css('background-color','');
         }
     });
 
@@ -127,6 +126,53 @@ $(function(){
     })
     
 
+    // 跳楼效果
+    var oLi = $('.lift_list>ul>li');
+    $(window).scroll(function(){
+        // 判断当前被卷去的距离是否大于到主题内容1到页面顶部的距离减去导航条高度
+        if($(this).scrollTop() >= $('.nh-main').offset().top-62){
+            $('.lift_list').fadeIn();
+        }else{
+            $('.lift_list').fadeOut();
+        }
+
+        if($(this).scrollTop() < $('.ms').offset().top-62){
+            $(oLi).eq(0).addClass('active').siblings().removeClass('active');
+        } 
+        if($(this).scrollTop() >= $('.ms').offset().top-62){
+            $(oLi).eq(1).addClass('active').siblings().removeClass('active');
+        }
+        if($(this).scrollTop() >= $('.jh').offset().top-62){
+            $(oLi).eq(2).addClass('active').siblings().removeClass('active');
+        }
+        if($(this).scrollTop() >= $('.fxhh').offset().top-62){
+            $(oLi).eq(3).addClass('active').siblings().removeClass('active');
+        }
+        if($(this).scrollTop() >= $('.txp').offset().top-62){
+            $(oLi).eq(4).addClass('active').siblings().removeClass('active');
+        }
+        if($(this).scrollTop() >= $('.sixbox').offset().top-62){
+            $(oLi).eq(5).addClass('active').siblings().removeClass('active');
+        }
+        if($(this).scrollTop() >= $('.goods').offset().top-62){
+            $(oLi).eq(6).addClass('active').siblings().removeClass('active');
+        }
+    })
+    // 存放每个楼层的id
+    var floorArr = ['.ms','.jh','.fxhh','.txp','.sixbox','.goods'];
+
+    $(oLi).click(function(){
+        $('html,body').animate({
+            // 使用jQuery的方法获取到对应数组中的楼层名 并得到该楼层距离页面顶部的距离 去掉导航栏部分
+            scrollTop:$($(floorArr).eq($(this).index())[0]).offset().top-62
+        })
+    })
+
+    $('.gotop').off().click(function(){
+        $('html,body').animate({
+            scrollTop:'0'
+        })
+    })
 
 });
 
