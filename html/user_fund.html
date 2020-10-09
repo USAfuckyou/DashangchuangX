@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-30 16:00:21
- * @LastEditTime: 2020-10-09 15:56:11
+ * @LastEditTime: 2020-10-09 15:59:55
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \8yue\DASHANGCHUANG\DashangchuangX\html\user_order.html
@@ -12,9 +12,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>收货地址</title>
+    <title>资金管理</title>
     <link rel="stylesheet" href="../css/user_order.css">
-    <link rel="stylesheet" href="../font/zzh/font_zcnz8bibd6/iconfont.css">
 </head>
 
 <body>
@@ -51,7 +50,7 @@
                             <a href="../html/user_quehuo.html">缺货等级</a>
                         </p>
                         <p>
-                            <a href="../html/user_tuihuan.html" class="mod-active">退还货订单</a>
+                            <a href="../html/user_tuihuan.html">退还货订单</a>
                         </p>
                     </dd>
                 </dl>
@@ -115,7 +114,7 @@
                             <a href="">跟踪包裹</a>
                         </p>
                         <p>
-                            <a href="../html/user_fund.html">资金管理</a>
+                            <a href="../html/user_fund.html" class="mod-active">资金管理</a>
                         </p>
                         <p>
                             <a href="">我的白条</a>
@@ -158,16 +157,78 @@
         <!-- 主题123 -->
         <div class="user-main">
             <div class="user-tittle">
-                <h2>退换货订单</h2>
-                <h3>您有<span>0</span>件退换货商品</h3>
+                <h2>资金管理</h2>
             </div>
-            <div class="no-records">
-                <i class="no-icon">
-                </i>
-                <h3>主人你还没有买东西呢</h3>
+            <!-- 用户名 -->
+            <div class="user-profile-info">
+                <div class="user-item">
+                    <div class="account-price">
+                        <strong>账户余额</strong>
+                        <span class="a-price">￥0.00</span>
+                    </div>
+
+
+                    <div class="account-btn">
+                        <a href="#" class="sc-btn">在线充值</a>
+                        <a href="#" class="sc-btn sc-btn2">申请提现</a>
+                    </div>
+
+                    <ul class="user-frame fund-frame">
+                        <li>
+                            <p>已邀请好友</p>
+                            <strong class="red">0</strong>
+                        </li>
+                        <li>
+                            <p>总销售额</p>
+                            <strong class="red">￥0.00</strong>
+                        </li>
+                        <li>
+                            <p>今日收入</p>
+                            <strong class="red">￥0.00</strong>
+                        </li>
+                        <li>
+                            <p>累计佣金</p>
+                            <strong class="red">￥0.00</strong>
+                        </li>
+                    </ul>
+
+                    <div class="user-prompt fund-prompt">
+                        <span class="tit">资金管理注意事项</span>
+                        <i>↓</i>
+                        <p>1、请先绑定银行卡，开通资金管理</p>
+                        <p>2、账户余额是您在本网站可用于支付的金额，您可在线充值、申请提现</p>
+                    </div>
+
+
+                </div>
+                <ul class="user-tabs tab1">
+                    <li> <a href="#" class="active">申请记录</a> </li>
+                    <li> <a href="#">账户明细</a> </li>
+                    <li> <a href="#">消费积分</a> </li>
+                    <li> <a href="#">成长值</a> </li>
+                </ul>
+                <div class="account-open-list">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>操作时间</th>
+                                <th>类型</th>
+                                <th>金额</th>
+                                <th>备注</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="6">您当前没有申请记录</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
+
         </div>
     </div>
+
     <script src="../js/jquery-3.5.1.js"></script>
     <script src="../js/user_order.js"></script>
 </body>
