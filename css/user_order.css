@@ -1,0 +1,600 @@
+/* 初始化 */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+/* 初始化结束 */
+
+
+/* 最大的 */
+
+
+/* 1 */
+
+.user-content {
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.user-side {
+    width: 260px;
+    height: 1140px;
+}
+
+
+/* 用户信息 */
+
+.user-perinfo-ny {
+    background: #fff;
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    height: 48px;
+    width: 198px;
+}
+
+.portrait {
+    float: left;
+}
+
+.portrait img {
+    width: 40px;
+    height: 40px;
+}
+
+.u-name {
+    float: left;
+    margin-left: 10px;
+}
+
+.u-name h2 {
+    font-size: 16px;
+    color: #8c8c8c;
+}
+
+.u-name .duanwei {
+    background: url(../img/zzh/user_rank.png);
+    background-position: -25px 0;
+    width: 90px;
+    height: 17px;
+    text-indent: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 12px;
+}
+
+
+/* 左边导航主要内容 */
+
+.user-mod {
+    /* height: 978px; */
+    width: 200px;
+    padding: 30px;
+    color: #8c8c8c;
+    background-color: #fff;
+}
+
+.user-mod a {
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.user-mod p {
+    margin-bottom: 8px;
+}
+
+.user-mod dl {
+    border-bottom: 1px dotted #ddd;
+    /* float: left; */
+}
+
+.user-mod dd {
+    padding: 0 0 0 26px;
+}
+
+.user-mod dt {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.user-mod dt span {
+    font-size: 16px;
+}
+
+.user-main {
+    width: 920px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+
+/* -号 */
+
+.square {
+    border: 1px solid #8C8C8C;
+    color: #8C8C8C;
+    float: left;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-top: 4px;
+    cursor: pointer;
+    line-height: 12px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.squarepuls {
+    position: absolute;
+    border-left: 3px solid #8C8C8C;
+    height: 8px;
+    display: inline-block;
+    left: 6px;
+    bottom: 17%;
+}
+
+.mod-active {
+    color: red !important;
+}
+
+.user-tittle {
+    width: 100%;
+    height: 27px;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.user-tittle h2::before {
+    content: "";
+    float: left;
+    height: 16px;
+    width: 3px;
+    background: #F32525;
+    margin: 6px 10px 0 0;
+}
+
+.user-tittle h2 {
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+    height: 27px;
+    line-height: 27px;
+    margin-right: 20px;
+}
+
+.user-tabs {
+    height: 27px;
+    float: left
+}
+
+.user-tabs .active {
+    color: red;
+    border-bottom: 1px solid red;
+    padding-bottom: 8px;
+}
+
+.user-tabs li {
+    float: left;
+    margin-right: 20px;
+    line-height: 27px;
+    border-bottom: 1px solid transparent;
+}
+
+.user-tabs li a {
+    font-size: 14px;
+    color: #333;
+}
+
+.user-list-tittle {
+    padding: 10px 0;
+    height: 30px;
+}
+
+.user-list-filter {
+    float: left;
+}
+
+.our-status {
+    float: left;
+    position: relative;
+    border: 1px solid #d2d2d2;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    margin-right: 30px;
+    color: #8c8c8c;
+}
+
+.user-list-filter .our-status .cite {
+    background: #fff;
+    padding: 0 10px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: left;
+}
+
+.cite span {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.our-status ul {
+    position: absolute;
+    top: 28px;
+    left: -1px;
+    background: #fff;
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    display: none;
+    z-index: 199;
+    max-height: 280px;
+    overflow: hidden;
+    text-indent: 10px;
+}
+
+.our-status ul li:hover {
+    background: #f0f0f0;
+}
+
+.no-records {
+    height: 104px;
+    padding: 70px 0 70px 165px;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.no-icon {
+    width: 159px;
+    height: 104px;
+    display: block;
+    float: left;
+    background-image: url(../img/zzh/not-common-icon.png);
+}
+
+.no-records h3 {
+    /* border: 1px solid #000; */
+    margin-top: 35px;
+    font-size: 20px;
+    color: #8c8c8c;
+}
+
+
+/* 收获地址 */
+
+.user-tittle h3 {
+    font-size: 14px;
+    color: #8c8c8c;
+    float: left;
+    height: 100%;
+    line-height: 27px;
+}
+
+.user-tittle h3 span {
+    color: red;
+}
+
+.cosignee-list {
+    /* margin: 0 -10px; */
+    font-size: 14px;
+    overflow: hidden
+}
+
+.cosignee-list li {
+    width: 50%;
+    float: left;
+}
+
+.consignee-inner {
+    margin: 10px;
+    border: 1px dashed #d2d2d2;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.consignee-add {
+    height: 108px;
+    display: block;
+    text-align: center;
+    color: #8c8c8c;
+    overflow: hidden;
+}
+
+.consignee-add i {
+    font-size: 18px;
+    display: block;
+    margin-top: 20px;
+}
+
+.consignee-add:hover {
+    color: red;
+}
+
+
+/* 会员中心 */
+
+.user-item {}
+
+.user-profile-info {
+    position: relative;
+}
+
+.user-touxiang {
+    float: right;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    top: 20px;
+    right: 100px;
+    cursor: pointer;
+}
+
+.user-item .item {
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+    float: left;
+    width: 100%;
+    color: #8c8c8c;
+}
+
+.user-item .item .label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 15px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.user-item .item .value {
+    float: left;
+}
+
+.user-item .item .value .txt-lh2 {
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.user-item .item .value .text {
+    height: 38px;
+    line-height: 38px;
+    border-color: #d2d2d2;
+    float: left;
+    font-size: 14px;
+    padding: 0 10px;
+    border: 1px solid #d2d2d2;
+    outline: 0;
+}
+
+.user-item .item .value .our-status {
+    text-indent: 1em;
+    margin-right: 10px;
+}
+
+.user-item .item .value .cite span {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.radio-item {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.item button {
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    outline: 0;
+    border: none;
+}
+
+.item button:hover {
+    opacity: 0.6;
+}
+
+.telnum {
+    margin-top: 8px;
+}
+
+
+/* 账户安全 */
+
+.level-word {
+    color: #f43434;
+    margin-right: 10px;
+    transition: all .2s;
+    float: left;
+    line-height: 27px;
+    font-size: 14px;
+}
+
+.level-tip {
+    color: #ffa450;
+    line-height: 27px;
+    font-size: 12px;
+}
+
+#level-progress {
+    height: 3px;
+    background: #d2d2d2;
+    font-size: 0;
+    width: 250px;
+    position: relative;
+    margin-top: 11px;
+    margin-right: 20px;
+    float: left;
+}
+
+#level-progress::before {
+    width: 33%;
+    background: #f43434;
+    height: 3px;
+    position: absolute;
+    transition: all .2s;
+    content: "";
+}
+
+#level-progress::after {
+    left: 33%;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #d2d2d2;
+    background: #fff;
+    top: -4px;
+    content: "";
+    position: absolute;
+}
+
+.user-safe-list {
+    color: #8c8c8c;
+}
+
+.user-safe-list .item {
+    padding: 44px 0;
+    border-bottom: 1px solid #d1d1d1;
+    overflow: hidden;
+}
+
+.item-icon {
+    float: left;
+    width: 46px;
+    height: 46px;
+    color: #9ed440;
+}
+
+.item-icon i {
+    font-size: 34px;
+}
+
+.info-name {
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.item-info p {
+    float: left;
+}
+
+.ftx-01 {
+    color: red;
+    font-size: 14px;
+}
+
+.ftx-02 {
+    font-size: 14px;
+    color: #333;
+}
+
+.item-handle {
+    float: right;
+}
+
+.item-handle .handle-btn {
+    width: 118px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #d2d2d2;
+    border-radius: 3px;
+    display: inline-block;
+    color: #8c8c8c;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -8px;
+}
+
+.handle-btn2 {
+    border-color: red !important;
+    color: red !important;
+}
+
+
+/* 账号绑定 */
+
+.user-main .bind-qq {
+    width: 200px;
+    height: 270px;
+}
+
+.bind-qq .bind-qq-tit {
+    border: 1px solid #d2d2d2;
+    width: 100%;
+    height: 240px;
+}
+
+.bind-qq .bind-qq-tit i {
+    color: rgb(82, 149, 249);
+    display: block;
+    width: 100px;
+    height: 100px;
+    font-size: 78px;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.bind-qq .bind-qq-tit h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.bind-qq .bind-qq-tit button {
+    width: 130px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 35px;
+    margin-top: 10px;
+    outline: 0;
+    background-color: #fff;
+    border: 1px solid #8c8c8c;
+}
+
+.bind-qq .bind-qq-tit button:hover {
+    border-color: red;
+    color: red;
+}
+
+.bind-qq-fot {
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.bind-qq-fot i {
+    font-size: 12px;
+}

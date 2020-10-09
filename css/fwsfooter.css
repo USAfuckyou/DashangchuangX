@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#footer {
+    width: 100%;
+    height: 400px;
+    background-color: #262626;
+    color: white;
+}
+
+.fwsfooter {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.fwsfooter ul {
+    width: 75%;
+    height: 185px;
+    border-bottom: 1px solid white;
+    float: left;
+}
+
+.fwsfooter ul li {
+    float: left;
+    width: 130px;
+    margin-right: 50px;
+}
+
+.fwsfooter ul li span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.fwsfooter ul li span:hover {
+    color: #e21717;
+}
+
+.fwsfright {
+    width: 25%;
+    height: 185px;
+    float: left;
+    border-bottom: 1px solid white;
+}
+
+.fwsfright span {
+    display: inline-block;
+    width: 120px;
+    height: 146px;
+    text-align: center;
+    color: white;
+    float: left;
+    border-bottom: 2px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.fwsfright span img {
+    width: 120px;
+    height: 120px;
+}
+
+.fwsringt {
+    margin-right: 50px;
+}
+
+.fwsfd {
+    width: 100%;
+    height: 60px;
+    float: left;
+    padding: 20px 0px;
+}
+
+.fwsfp1 {
+    width: 70%;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+.fwsfp1 span {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    color: #888888;
+    text-align: center;
+}
+
+.fwsfp2 {
+    width: 40%;
+}
+
+.fwsfp1 span:hover {
+    color: rgb(255, 0, 34);
+}
+
+.fwsfp2 span {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+
+.fotop {
+    padding: 25px 0;
+    height: 35px;
+    background-color: #EEEEEE;
+}
+
+.fotopxin {
+    width: 1200px;
+    margin: auto;
+}
+
+.ll {
+    float: left;
+    width: 168px;
+    height: 32px;
+    line-height: 30px;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+.ll span {
+    margin-left: 10px;
+    color: #888888;
+}
+
+.f-cn {
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+.f-on1 {
+    background-position: -34px 0!important;
+}
+
+.f-on2 {
+    background-position: -68px 0!important;
+}
+
+.f-on3 {
+    background-position: -102px 0!important;
+}
+
+.f-on4 {
+    background-position: -136px 0!important;
+}
+
+.cha {
+    background: url(../img/fws/fimg/footer_new_icon.png) no-repeat;
+    display: inline-block;
+}
+
+.f-on6 {
+    background-position: -3px -138px;
+}
+
+.f-on5 {
+    background-position: -3px -103px;
+}
+
+.mm {
+    width: 160px!important;
+}
+
+.mm span {
+    width: 140px!important;
+    color: black!important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mn {
+    width: 130px!important;
+}
+
+.mn span {
+    width: 80px!important;
+    color: black!important;
+    font-size: 16px;
+    margin-left: 17px!important;
+    font-weight: bold;
+}
