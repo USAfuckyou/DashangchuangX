@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1602164561357'); /* IE9 */
+  src: url('iconfont.eot?t=1602164561357#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAP0AAsAAAAACGQAAAOlAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqEUINfATYCJAMMCwgABCAFhG0HNBsjBxHVm2nJfiTYthZW1ocJucgjNEnfBA/0nvUmM81mk658gJEeWR2l7pl/QgNga84BGxWhSrLnO4++kCfIZ/THveP/q/MsnM+yXObY1n3qAowDCmisTYGE6QBJ0BvGLmiJuyEAk3TkQVSpVqcJBgpzkABEn57dO2JktKiGQoGBQK+YqRDzcGBo07WrwNzg++IThYQBGg6JuVeDblW7UOGNfJtR2kGbNtKFPZ0ZYPNAAnkABaJdpbUFMormQWKqUtWcqaMQaFMFgsGAq4l16w8PNAQIHTPfCUAOFNPgjXQY0OBtRv5V8x7ufR0IAQ4AnyZYHxTS6SxY3xlqdkx91zzwttnd103uvWkastNsyIJP2G7J8vhAYMbdJu5Ed9LGu9ibEjwpniT3RmzrwJEEa90+68KJ5MW5fCmbEjasiF9+uqk3l9frjk10u+24dUn+veb6/fHeWHNGrPtgkf2bE3xb7HV93vjNiy2Xd4Y71h/rTfbtye7zxXtdpa0TUlNn3mtqe+I8xNqu71Rae/RmuBs7pcm6Y/bRGcddJ9o6hSVNYWlWEK+rqCh13WJ5bLciSUn3QGXIoCDxQYYMQvjK2cK1LodUs/aNRrRr6mi8qUC5uCZpq8Rkil958mur1RsSIoq3GPB6uEp/Pd1Aibmv5ppsNzMONpPrmGMrhRQ52bz6wXHDw7usEJG1E27WvVq5geUoLLq6TmaONyMHF6yRXZT1CH2YVUV8L5RVjzjmrJjdER4u8hzQZZ2GNbvYK4s6RmpyGsvSK2ecmiuKDNIOqHTpVMAipUsbcKjTpsXlgbTpAjOfTy03DaZO3TEjU82aGfHcB71qkgGA4Az5R7p+9G+oor/M0j6izDfDUgA8WleiYeAO2opuuWCgQWfeb+V1rFKawNRJpXAdrmGT+FNuNIBsLuNnFgNE83S4PQ4Ss8DgPAgaIaQFiUEWRBHygAOLIqBjUB5MclN9vkUMg5AIFQrkYjIAQSQ7QCOcEyCJ5BqiCE/AQTxfQCdSSDBpJmJWtMgmepqVNcKRcYHpD3qOQdgGvoSFN5RvN1JaEJBfSEUHoK2afOKKAWmKMeUjO2YBgqKHAeyHzkVIFA3OXCnm1Ne1qHpQNUe/ulCZcGRcYPqDnmMQXn2+FD5/Q/l2IzVgqswvpKKbh7ZqOiBXaeiEuZV7ykd2zAIERQ8DMKOzohFSdTeDM1dqQDj1Naolukqr5eX+/TYAJuYmUmhCCoU2MO9ZF6VXKwAAAA==') format('woff2'),
+  url('iconfont.woff?t=1602164561357') format('woff'),
+  url('iconfont.ttf?t=1602164561357') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1602164561357#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-qq:before {
+  content: "\e621";
+}
+
+.icon-tishi:before {
+  content: "\e503";
+}
+
