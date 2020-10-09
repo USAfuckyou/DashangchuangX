@@ -12,7 +12,7 @@
     margin-top: 400px;
 }
 .foo-init{
-    margin-top: 50px!important;
+    margin-top: 400px!important;
 }
 
 .fwsfooter {
@@ -113,6 +113,9 @@
     padding: 25px 0;
     height: 35px;
     background-color: #EEEEEE;
+}
+.temp_style{
+    height: 80px;
 }
 
 .fotopxin {

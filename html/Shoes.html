@@ -4,141 +4,493 @@
 <head>
     <meta charset="utf-8">
     <title>靴鞋箱包</title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    
+     <!-- 公共样式 -->
+        <link rel="stylesheet" href="../css/public-header.css">
     <link rel="stylesheet" href="../css/Shors.css">
+
+       
+        <!-- 底部样式 -->
+        <link rel="stylesheet" href="../css/fwsfooter.css" />
+        <link rel="stylesheet" href="../font/zcf/header_icon-font/iconfont.css">
+       
 </head>
 
 <body>
+
+    
+    <header>
+        <!-- 头部的上部分 -->
+        <div class="rc_top">
+            <div class="rc_top_bar">
+                <ul>
+                    <li class="li_addstyle">
+                        <i class="iconfont icon-weizhi"></i>
+                        <a href="#">郑州市</a>
+                        <div>
+                            <img src="../img/zcf/loadGoods.gif" alt="">
+                        </div>
+                    </li>
+                    <li class="hea_login">
+                        <a href="#">请登录</a>
+                    </li>
+                    <li class="hea_register">
+                        <a href="#">免费注册</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="../html/user_order.html">我的订单</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="../html/user_order.html">我的浏览</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="../html/user_order.html">我的收藏</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="../html/user_order.html">客户服务</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        网站导航
+                        <i class="iconfont icon-jiantouxia"></i>
+                        <div class="web_nav">
+                            <div>
+                                <ul>
+                                    <li>
+                                        <h3>特色主题</h3>
+                                    </li>
+                                    <li><a href="">家用电器</a></li>
+                                    <li><a href="">男装怒装</a></li>
+                                    <li><a href="">鞋靴箱包</a></li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <h3>促销活动</h3>
+                                    </li>
+                                    <li><a href="">拍卖活动</a></li>
+                                    <li><a href="">CMS频道</a></li>
+                                    <li><a href="">优惠券</a></li>
+                                </ul>
+                                <ul class="web_nav_style">
+                                    <li><a href="">共创商品</a></li>
+                                    <li><a href="">优惠活动</a></li>
+                                    <li><a href="">礼品卡</a></li>
+                                </ul>
+                                <ul class="web_nav_style">
+                                    <li><a href="">积分商城</a></li>
+                                    <li><a href="">超值礼包</a></li>
+                                    <li><a href="">预售商品</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_top">
+            <div class="left_logo">
+                <a href="../index.html"><img src="../img/zcf/shop_logo.gif" alt=""></a>
+            </div>
+            <div class="right_con">
+                <!-- 搜索商品 和店铺 -->
+                <div class="rc_bottom">
+                    <div class="rb_left">
+                        <div class="search_oper">
+                            <div class="search_inp">
+                                <input type="text" placeholder="手机">
+                            </div>
+                            <div class="search_goods">搜商品</div>
+                            <div class="search_shop">搜店铺</div>
+                            <ul>
+                                <li><a href="#">周大福</a></li>
+                                <li><a href="#">内衣</a></li>
+                                <li><a href="#">Five Plus</a></li>
+                                <li><a href="#">手机</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rb_right">
+                        <div class="rb_cart">
+                            <i class="iconfont icon-gouwuche1"></i> 我的购物车
+                            <span>0</span>
+                        </div>
+                        <div class="cart_hover">
+                            <img src="../img/zcf/cart-nogoods.png" alt="">
+                            <span>购物车中还没有商品，赶紧选吧！</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 商品分类 -->
+        <div class="hea_bottom">
+            <div class="hb_title">
+                <div class="hb_package">
+                    <div class="type_goods clothing_goods">
+                        <a href="#">男装、女装、内衣</a>
+                    </div>
+                    <div class="cn_goods_nav">
+                        <ul>
+                            <li>
+                                <div class="item-content">
+                                    <i>></i>
+                                    <div class="categorys-title">
+                                        <p>女装</p>
+                                        <span>
+                                            <a href="#">连衣裙</a>
+                                            <a href="#">蕾丝/雪纺衫</a>
+                                            <a href="#">T恤</a>
+                                            <a href="#">半身裙</a>
+                                            <a href="#">休闲裤</a>
+                                            <a href="#">短裤</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="categorys-content">
+                                    <h3><a href="#">女装</a></h3>
+                                    <ul class="cate-list">
+                                        <li><a href="#">连衣裙</a></li>
+                                        <li><a href="#">蕾丝/雪纺衫</a></li>
+                                        <li><a href="#">T恤</a></li>
+                                        <li><a href="#">半身裙</a></li>
+                                        <li><a href="#">休闲裤</a></li>
+                                        <li><a href="#">短裤</a></li>
+                                        <li><a href="#">小西服</a></li>
+                                        <li><a href="#">风衣</a></li>
+                                    </ul>
+                                    <ul class="cate-logo">
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate1.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content">
+                                    <i>></i>
+                                    <div class="categorys-title">
+                                        <p>男装</p>
+                                        <span>
+                                            <a href="#">T恤</a>
+                                            <a href="#">裤子</a>
+                                            <a href="#">休闲裤</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="categorys-content">
+                                    <h3><a href="#">男装</a></h3>
+                                    <ul class="cate-list">
+                                        <li><a href="#">T恤</a></li>
+                                        <li><a href="#">裤子</a></li>
+                                        <li><a href="#">休闲裤</a></li>
+                                    </ul>
+                                    <ul class="cate-logo">
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate2.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content">
+                                    <i>></i>
+                                    <div class="categorys-title">
+                                        <p>服饰配件</p>
+                                        <span>
+                                            <a href="#">配饰</a>
+                                            <a href="#">棒球帽</a>
+                                            <a href="#">遮阳帽</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="categorys-content">
+                                    <h3><a href="#">女装</a></h3>
+                                    <ul class="cate-list">
+                                        <li><a href="#">配饰</a></li>
+                                        <li><a href="#">棒球帽</a></li>
+                                        <li><a href="#">遮阳帽</a></li>
+                                    </ul>
+                                    <ul class="cate-logo">
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate3.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content">
+                                    <i>></i>
+                                    <div class="categorys-title">
+                                        <p>内衣</p>
+                                        <span>
+                                            <a href="#">连衣裙</a>
+                                            <a href="#">蕾丝/雪纺衫</a>
+                                            <a href="#">T恤</a>
+                                            <a href="#">半身裙</a>
+                                            <a href="#">休闲裤</a>
+                                            <a href="#">短裤</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="categorys-content">
+                                    <h3><a href="#">户外运动</a></h3>
+                                    <ul class="cate-list">
+                                        <li><a href="#">连衣裙</a></li>
+                                        <li><a href="#">蕾丝/雪纺衫</a></li>
+                                        <li><a href="#">T恤</a></li>
+                                        <li><a href="#">半身裙</a></li>
+                                        <li><a href="#">休闲裤</a></li>
+                                        <li><a href="#">短裤</a></li>
+                                        <li><a href="#">小西服</a></li>
+                                        <li><a href="#">风衣</a></li>
+                                    </ul>
+                                    <ul class="cate-logo">
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate4.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item-content" style="border-bottom: none;">
+                                    <i>></i>
+                                    <div class="categorys-title">
+                                        <p>女装</p>
+                                        <span>
+                                            <a href="#">连衣裙</a>
+                                            <a href="#">蕾丝/雪纺衫</a>
+                                            <a href="#">T恤</a>
+                                            <a href="#">半身裙</a>
+                                            <a href="#">休闲裤</a>
+                                            <a href="#">短裤</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="categorys-content">
+                                    <h3><a href="#">女装</a></h3>
+                                    <ul class="cate-list">
+                                        <li><a href="#">连衣裙</a></li>
+                                        <li><a href="#">蕾丝/雪纺衫</a></li>
+                                        <li><a href="#">T恤</a></li>
+                                        <li><a href="#">半身裙</a></li>
+                                        <li><a href="#">休闲裤</a></li>
+                                        <li><a href="#">短裤</a></li>
+                                        <li><a href="#">小西服</a></li>
+                                        <li><a href="#">风衣</a></li>
+                                    </ul>
+                                    <ul class="cate-logo">
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                        <li><a href="#"><img src="../img/zcf/nv_cate5.jpg" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav_page">
+                    <ul>
+                        <li>
+                            <a href="../index.html" >首页</a>
+                        </li>
+                        <li>
+                            <a href="#">个护美妆</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav_active">服装城</a>
+                        </li>
+                        <li>
+                            <a href="../html/electric.html">家用电器</a>
+                        </li>
+                        <li>
+                            <a href="#">鞋靴箱包</a>
+                        </li>
+                        <li>
+                            <a href="#">聚划算</a>
+                        </li>
+                        <li>
+                            <a href="#">预售</a>
+                        </li>
+                        <li>
+                            <a href="#">店铺街</a>
+                        </li>
+                        <li>
+                            <a href="#">品牌专区</a>
+                        </li>
+                        <li>
+                            <a href="#">公告</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <!-- 第一块 -->
     <div class="tuhead">
         <img src="../img/fws/fimg/bei.jpg">
     </div>
-    <div class="bax">
-        <div class="baxin">
-
-            <div class="bsxin">
-                <div id="batwo" class="bosone"><span id="hignb">热销榜</span>
-                    <div id="boqsan" class="boqsan">
-                        <div class="fone">
-                            <img class="imgtwo" src="../img/fws/fimg/d4.jpg" alt="">
-                            <div class="fstwo">
-                                <span class="sha">1</span>
-                                <div class="twosun">
-                                    <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
-                                    <div class="pone">
-                                        ¥236.00
+    <div  class="l_l">
+        <div class="bax">
+            <div class="baxin">
+    
+                <div class="bsxin">
+                    <div id="batwo" class="bosone"><span id="hignb">热销榜</span>
+                        <div id="boqsan" class="boqsan">
+                            <div class="fone">
+                                <img class="imgtwo" src="../img/fws/fimg/d4.jpg" alt="">
+                                <div class="fstwo">
+                                    <span class="sha">1</span>
+                                    <div class="twosun">
+                                        <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
+                                        <div class="pone">
+                                            ¥236.00
+                                        </div>
                                     </div>
                                 </div>
+    
                             </div>
-
-                        </div>
-                        <div class="fone">
-                            <img class="imgtwo" src="../img/fws/fimg/d5.jpg" alt="">
-                            <div class="fstwo">
-                                <span class="sha">2</span>
-                                <div class="twosun">
-                                    <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
-                                    <div class="pone">
-                                        ¥236.00
+                            <div class="fone">
+                                <img class="imgtwo" src="../img/fws/fimg/d5.jpg" alt="">
+                                <div class="fstwo">
+                                    <span class="sha">2</span>
+                                    <div class="twosun">
+                                        <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
+                                        <div class="pone">
+                                            ¥236.00
+                                        </div>
                                     </div>
                                 </div>
+    
                             </div>
-
-                        </div>
-                        <div class="fone">
-                            <img class="imgtwo" src="../img/fws/fimg/d3.jpg" alt="">
-                            <div class="fstwo">
-                                <span class="sha">3</span>
-                                <div class="twosun">
-                                    <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
-                                    <div class="pone">
-                                        ¥236.00
+                            <div class="fone">
+                                <img class="imgtwo" src="../img/fws/fimg/d3.jpg" alt="">
+                                <div class="fstwo">
+                                    <span class="sha">3</span>
+                                    <div class="twosun">
+                                        <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
+                                        <div class="pone">
+                                            ¥236.00
+                                        </div>
                                     </div>
                                 </div>
+    
                             </div>
-
-                        </div>
-                        <div class="fone">
-                            <img class="imgtwo" src="../img/fws/fimg/d4.jpg" alt="">
-                            <div class="fstwo">
-                                <span class="sha">4</span>
-                                <div class="twosun">
-                                    <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
-                                    <div class="pone">
-                                        ¥236.00
+                            <div class="fone">
+                                <img class="imgtwo" src="../img/fws/fimg/d4.jpg" alt="">
+                                <div class="fstwo">
+                                    <span class="sha">4</span>
+                                    <div class="twosun">
+                                        <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
+                                        <div class="pone">
+                                            ¥236.00
+                                        </div>
                                     </div>
                                 </div>
+    
                             </div>
-
                         </div>
                     </div>
-                </div>
-                <div id="baone" class="bosone baone"><span id="higna">促销榜</span>
-                    <div id="boqtwo" class="boqtwo">
-                        <div class="fone">
-                            <img class="imgtwo" src="../img/fws/fimg/d3.jpg" alt="">
-                            <div class="fstwo">
-                                <span class="sha">1</span>
-                                <div class="twosun">
-                                    <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
-                                    <div class="pone">
-                                        ¥236.00
+                    <div id="baone" class="bosone baone"><span id="higna">促销榜</span>
+                        <div id="boqtwo" class="boqtwo">
+                            <div class="fone">
+                                <img class="imgtwo" src="../img/fws/fimg/d3.jpg" alt="">
+                                <div class="fstwo">
+                                    <span class="sha">1</span>
+                                    <div class="twosun">
+                                        <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
+                                        <div class="pone">
+                                            ¥236.00
+                                        </div>
                                     </div>
                                 </div>
+    
                             </div>
-
-                        </div>
-                        <div class="fone">
-                            <img class="imgtwo" src="../img/fws/fimg/d4.jpg" alt="">
-                            <div class="fstwo">
-                                <span class="sha">2</span>
-                                <div class="twosun">
-                                    <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
-                                    <div class="pone">
-                                        ¥236.00
+                            <div class="fone">
+                                <img class="imgtwo" src="../img/fws/fimg/d4.jpg" alt="">
+                                <div class="fstwo">
+                                    <span class="sha">2</span>
+                                    <div class="twosun">
+                                        <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
+                                        <div class="pone">
+                                            ¥236.00
+                                        </div>
                                     </div>
                                 </div>
+    
                             </div>
-
-                        </div>
-                        <div class="fone">
-                            <img class="imgtwo" src="../img/fws/fimg/d3.jpg" alt="">
-                            <div class="fstwo">
-                                <span class="sha">3</span>
-                                <div class="twosun">
-                                    <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
-                                    <div class="pone">
-                                        ¥236.00
+                            <div class="fone">
+                                <img class="imgtwo" src="../img/fws/fimg/d3.jpg" alt="">
+                                <div class="fstwo">
+                                    <span class="sha">3</span>
+                                    <div class="twosun">
+                                        <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
+                                        <div class="pone">
+                                            ¥236.00
+                                        </div>
                                     </div>
                                 </div>
+    
                             </div>
-
-                        </div>
-                        <div class="fone">
-                            <img class="imgtwo" src="../img/fws/fimg/d5.jpg" alt="">
-                            <div class="fstwo">
-                                <span class="sha">4</span>
-                                <div class="twosun">
-                                    <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
-                                    <div class="pone">
-                                        ¥236.00
+                            <div class="fone">
+                                <img class="imgtwo" src="../img/fws/fimg/d5.jpg" alt="">
+                                <div class="fstwo">
+                                    <span class="sha">4</span>
+                                    <div class="twosun">
+                                        <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
+                                        <div class="pone">
+                                            ¥236.00
+                                        </div>
                                     </div>
                                 </div>
+    
                             </div>
-
-                        </div>
-                        <div class="fone">
-                            <img class="imgtwo" src="../img/fws/fimg/d3.jpg" alt="">
-                            <div class="fstwo">
-                                <span class="sha">5</span>
-                                <div class="twosun">
-                                    <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
-                                    <div class="pone">
-                                        ¥236.00
+                            <div class="fone">
+                                <img class="imgtwo" src="../img/fws/fimg/d3.jpg" alt="">
+                                <div class="fstwo">
+                                    <span class="sha">5</span>
+                                    <div class="twosun">
+                                        <p class="hoh">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</p>
+                                        <div class="pone">
+                                            ¥236.00
+                                        </div>
                                     </div>
                                 </div>
+    
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -146,255 +498,474 @@
         </div>
     </div>
     <!-- 第二块 -->
-    <div class="bos">
-        <div class="bosxin">
-            <div class="bosone">品牌旗舰</div>
+    <div>
+        <div class="bos">
+            <div class="bosxin">
+                <div class="bosone">品牌旗舰</div>
+            </div>
         </div>
-    </div>
-    <div class="aos">
-        <div class="aosxin">
-            <div id="bosleft" class="bosleft">
-                < </div>
-                    <div id="bosan" class="bosan">
-                        <ul id="bastwo" class="bastwo" style="transform: all 2s;">
-                            <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
-                            <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
-                        </ul>
-                    </div>
-                    <div id="bosright" class="bosright"> > </div>
-
+        <div class="aos">
+            <div class="aosxin">
+                <div id="bosleft" class="bosleft">
+                    < </div>
+                        <div id="bosan" class="bosan">
+                            <ul id="bastwo" class="bastwo" style="transform: all 2s;">
+                                <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao1.jpg" alt=""></li>
+                                <li><img src="../img/fws/fimg/yao2.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                        <div id="bosright" class="bosright"> > </div>
+    
+                </div>
             </div>
         </div>
     </div>
     <!-- 第三块 -->
-    <div class="bos">
-        <div class="bosxin">
-            <div class="bosone">今日推荐</div>
+    <div class="l_l">
+        <div class="bos">
+            <div class="bosxin">
+                <div class="bosone">今日推荐</div>
+            </div>
         </div>
-    </div>
-    <div class="box">
-        <div class="boxin">
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
-                <h2 class="hq">KooDao2016新款奢侈蛇纹真皮女士手提包百搭精品休闲斜挎手拎包 悦享生活 品质追求 满减领券 支持无理由 退换货</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+        <div class="box">
+            <div class="boxin">
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
+                    <h2 class="hq">KooDao2016新款奢侈蛇纹真皮女士手提包百搭精品休闲斜挎手拎包 悦享生活 品质追求 满减领券 支持无理由 退换货</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
+    
                 </div>
-
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
+    
                 </div>
-
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
+    
             </div>
-
         </div>
     </div>
     <!-- 第四块 -->
-    <div class="bos">
-        <div class="bosxin">
-            <div class="bosone">新品到货</div>
+    <div class="l_l">
+        <div class="bos">
+            <div class="bosxin">
+                <div class="bosone">新品到货</div>
+            </div>
         </div>
-    </div>
-    <div class="box">
-        <div class="boxin">
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+        <div class="box">
+            <div class="boxin">
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
+    
                 </div>
-
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
+    
                 </div>
-
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d3.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
-            </div>
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
-                <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
-                <div class="clearfix">
-                    <span class="pone">¥236.00</span>
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d5.jpg" alt="">
+                    <h2 class="hq">Razer/雷蛇 北海巨妖专业版V2 Kraken Pro 电竞游戏耳麦 耳机</h2>
+                    <div class="clearfix">
+                        <span class="pone">¥236.00</span>
+                    </div>
                 </div>
+    
             </div>
-
         </div>
     </div>
     <!-- 第五块 -->
-    <div class="bos">
-        <div class="bosxin">
-            <div class="bosone">浏览记录</div>
+    <div class="l_l">
+        <div class="bos">
+            <div class="bosxin">
+                <div class="bosone">浏览记录</div>
+            </div>
         </div>
-    </div>
-    <div class="bax">
-        <div class="baxin">
-
-            <div class="fone">
-                <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
-                <div class="clearfix">
-                    <span class="pone ppone">¥236.00</span>
+    </div>  
+    <div>
+        <div class="bax">
+            <div class="baxin">
+    
+                <div class="fone">
+                    <img class="imgone" src="../img/fws/fimg/d4.jpg" alt="">
+                    <div class="clearfix">
+                        <span class="pone ppone">¥236.00</span>
+                    </div>
+                    <h2 class="hq">KooDao2016新款奢侈蛇纹真皮女士手提包百搭精品休闲斜挎手拎包 悦享生活 品质追求 满减领券 支持无理由 退换货</h2>
+                    <button>查看详情</button>
+    
                 </div>
-                <h2 class="hq">KooDao2016新款奢侈蛇纹真皮女士手提包百搭精品休闲斜挎手拎包 悦享生活 品质追求 满减领券 支持无理由 退换货</h2>
-                <button>查看详情</button>
-
             </div>
         </div>
     </div>
+    
+    <!-- 楼层 -->
+    <div class="l_level">
+        <ul class="l_level-list">
+            <li class="l_level-item"><span>排行榜</span></li>
+            <li><span>今日推荐</span></li>
+            <li><span>新品到货</span></li>
+            <li><span>浏览记录</span></li>
+            <div><span>^</span></div>
+        </ul>
+    </div>
 
+            <!-- 底部 -->
+            <div id="footer" class="foo-init">
+                <div class="fotop temp_style">
+                    <div class="fotopxin">
+                        <div class="ll">
+                            <i class="f-cn cha"></i>
+                            <span>七天包退</span>
+                        </div>
+        
+                        <div class="ll">
+                            <i class="f-cn f-on1 cha"></i>
+                            <span>正品保障</span>
+                        </div>
+        
+                        <div class="ll">
+                            <i class="f-cn f-on2 cha"></i>
+                            <span>好评如潮</span>
+                        </div>
+        
+                        <div class="ll">
+                            <i class="f-cn f-on3 cha"></i>
+                            <span>闪电发货</span>
+                        </div>
+        
+                        <div class="ll">
+                            <i class="f-cn f-on4 cha"></i>
+                            <span>权威荣耀</span>
+                        </div>
+        
+                        <div class="ll mm">
+                            <i class="f-cn f-on5 cha "></i>
+                            <span>4001-021-758</span>
+                            <div style="display: none;"></div>
+                        </div>
+        
+                        <div class="ll mn">
+                            <i class="f-cn f-on6 cha"></i>
+                            <span>咨询客服</span>
+                        </div>
+        
+                    </div>
+                </div>
+                <div class="fwsfooter">
+                    <ul>
+                        <li>
+                            <h2>新手上路</h2>
+                            <span>售后流程</span><br>
+                            <span>购物流程</span><br>
+                            <span>订购方式</span><br>
+                            <span></span><br>
+                        </li>
+                        <li>
+                            <h2>配送与支付</h2>
+                            <span>货到付款区域</span><br>
+                            <span>配送支付智能查询</span><br>
+                            <span>订购方式说明</span><br>
+                            <span></span><br></li>
+                        <li>
+                            <h2>服务保证</h2>
+                            <span>退换货原则</span><br>
+                            <span>售后服务保证</span><br>
+                            <span>产品质量保证</span><br>
+                            <span></span><br></li>
+                        <li>
+                            <h2>联系我们</h2>
+                            <span>网站故障报告</span><br>
+                            <span>选机咨询</span><br>
+                            <span>投诉与建议</span><br>
+                            <span></span><br></li>
+                        <li>
+                            <h2>会员中心</h2>
+                            <span>资金管理</span><br>
+                            <span>我的收藏</span><br>
+                            <span>我的订单</span><br>
+                            <span></span><br></li>
+                    </ul>
+                    <div class="fwsfright">
+                        <span class="fwsringt"><img src="../img/fws/fimg/ecjia_qrcode.jpg">
+                            关注微信
+                            </span>
+                        <span><img src="../img/fws/fimg/ectouch_qrcode.jpg">
+                            下载APP
+                            </span>
+        
+                    </div>
+        
+                    <div class="fwsfd">
+                        <div class="fwsfp1"><span>首页</span>|<span>隐私保护</span>|<span>联系我们</span>|<span>免费条款</span>|<span>公司简介</span>|<span>商家入驻</span>|<span>供应商入住</span>|<span>意见反馈</span></div>
+                        <div class="fwsfp1 fwsfp2"><span>b2b2c</span>|&nbsp;&nbsp;&nbsp;<span>多用户商城系统</span>&nbsp;&nbsp;&nbsp;|<span>商城系统</span>|<span>ecjia新零售</span></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 侧边功能 -->
+        <div class="aside">
+            <div class="aside_left">
+                <ul>
+                    <li class="al_user">
+                        <a href=""><img src="../img/zcf/用户.png" alt=""></a>
+                    </li>
+                    <li class="al_shopCart">
+                        <a href="#">
+                            <i class="iconfont icon-gouwuche"></i>
+                            <p>购</p>
+                            <p>物</p>
+                            <p>车</p>
+                            <span>0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/zcf/订单.png" alt="">
+                            <div class="move_box">
+                                我的订单
+                                <span></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/zcf/我的优惠卷.png" alt="">
+                            <div class="move_box">
+                                优惠券
+                                <span></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/zcf/资产.png" alt="">
+                            <div class="move_box">
+                                我的资产
+                                <span></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/zcf/浏览.png" alt="">
+                            <div class="move_box">
+                                我的足迹
+                                <span></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/zcf/收藏.png" alt="">
+                            <div class="move_box">
+                                我的收藏
+                                <span></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/zcf/信息.png" alt="">
+                            <div class="move_box">
+                                邮箱订阅
+                                <span></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../img/zcf/用户.png" alt="">
+                            <div class="move_box">
+                                客服中心
+                                <span></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="aside_right">
+                <div class="ar_title">
+                    <span>购物车</span>
+                    <span class="ar_close"><i>X</i></span>
+                </div>
+                <div class="ar_content">
+                    <div>
+                        <p><img src="../img/zcf/cart-nogoods.png" alt=""></p>
+                        <p>购物车空空的，赶快去挑选心仪的商品吧~</p>
+                        <p><a href="../index.html">去首页看看</a></p>
+                    </div>
+                </div>
+                <div class="ar_foo">
+                    <div class="ar_foo_top">
+                        <span>共<i>0</i>件商品</span>
+                        <span>￥<i>0.00</i></span>
+                    </div>
+                    <div class="ar_foo_btn">
+                        <button type="button">去购物车结算</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 <script src="../js/jquery-3.5.1.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/Shoes.js"></script>
+<script src="../js/clothing.js"></script>
+<script src="../js/zcf-util.js"></script>
 
 </html>
