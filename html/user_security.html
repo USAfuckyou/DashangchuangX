@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-30 16:00:21
- * @LastEditTime: 2020-10-08 19:28:39
+ * @LastEditTime: 2020-10-08 20:24:39
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \8yue\DASHANGCHUANG\DashangchuangX\html\user_order.html
@@ -12,8 +12,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>用户界面</title>
+    <title>收货地址</title>
     <link rel="stylesheet" href="../css/user_order.css">
+    <link rel="stylesheet" href="../font/zzh/font_zcnz8bibd6/iconfont.css">
+    <link rel="stylesheet" href="../font/zzh/font_h93as2offgl/iconfont.css">
 </head>
 
 <body>
@@ -41,7 +43,7 @@
                     </dt>
                     <dd>
                         <p>
-                            <a href="../html/user_order.html" class="mod-active">我的订单</a>
+                            <a href="../html/user_order.html">我的订单</a>
                         </p>
                         <p>
                             <a href="../html/user_address.html">收获地址</a>
@@ -64,7 +66,7 @@
                             <a href="../html/user_data.html">用户信息</a>
                         </p>
                         <p>
-                            <a href="../html/user_security.html">账户安全</a>
+                            <a href="../html/user_security.html" class="mod-active">账户安全</a>
                         </p>
                         <p>
                             <a href="../html/user_binding.html">账号绑定</a>
@@ -157,58 +159,86 @@
         <!-- 主题123 -->
         <div class="user-main">
             <div class="user-tittle">
-                <h2>我的订单</h2>
-                <ul class="user-tabs">
-                    <li> <a href="#" class="active">全部订单(0)</a> </li>
-                    <li> <a href="#">待付款(0)</a> </li>
-                    <li> <a href="#">待收货(0)</a> </li>
-                    <li> <a href="#">已完成(0)</a> </li>
-                </ul>
+                <h2>账户安全</h2>
+                <div class="level-word">低级</div>
+                <!-- 进度条 -->
+                <div id="level-progress"></div>
+                <div class="level-tip">建议您启动全部安全设置，以保障账户及资金安全。</div>
             </div>
-            <div class="user-list-tittle">
-                <div class="user-list-filter">
-                    <div class="our-status">
-                        <div class="cite">
-                            <em>全部状态</em>
-                            <span>+</span>
-                        </div>
-                        <ul>
-                            <li>全部状态</li>
-                            <li>待付款</li>
-                            <li>待发货</li>
-                            <li>待确认发货</li>
-                            <li>已完成</li>
-                            <li>付款中</li>
-                            <li>取消</li>
-                            <li>无效</li>
-                        </ul>
+            <div class="user-safe-list">
+                <div class="item">
+                    <div class="item-icon">
+                        <i class="iconfont icon-lockopen"></i>
                     </div>
-                    <div class="our-status">
-                        <div class="cite">
-                            全部状态
-                            <span>+</span>
-                        </div>
-                        <ul>
-                            <li>全部状态</li>
-                            <li>待付款</li>
-                            <li>待发货</li>
-                            <li>待确认发货</li>
-                            <li>已完成</li>
-                            <li>付款中</li>
-                            <li>取消</li>
-                            <li>无效</li>
-                        </ul>
+                    <div class="item-info">
+                        <div class="info-name">登录密码</div>
+                        <p><span class="ftx-01">互联网账号存在被盗风险，建议您定期更改密码以保护账户安全。</span></p>
+                    </div>
+                    <div class="item-handle">
+                        <a href="#" class="handle-btn">
+                            修改
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <i class="iconfont icon-xinfeng"></i>
+                    </div>
+                    <div class="item-info">
+                        <div class="info-name">邮箱验证</div>
+                        <p><span class="ftx-02">验证后，可用于快速找回登录密码，接收账户余额变动提醒等。</span></p>
+                    </div>
+                    <div class="item-handle">
+                        <a href="#" class="handle-btn handle-btn2">
+                            立即验证
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <i class="iconfont icon-shouji"></i>
+                    </div>
+                    <div class="item-info">
+                        <div class="info-name">手机验证</div>
+                        <p><span class="ftx-02">您的手机已验证，若已丢失或停用，请立即更换，避免账户被盗</span></p>
+                    </div>
+                    <div class="item-handle">
+                        <a href="#" class="handle-btn">
+                            修改
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <i class="iconfont icon-lockopen"></i>
+                    </div>
+                    <div class="item-info">
+                        <div class="info-name">支付密码</div>
+                        <p><span class="ftx-02">安全认证</span></p>
+                    </div>
+                    <div class="item-handle">
+                        <a href="#" class="handle-btn handle-btn2">
+                            立即启动
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-icon">
+                        <i class="iconfont icon-credentials_icon" style="font-size: 24px; line-height: 40px;"></i>
+                    </div>
+                    <div class="item-info">
+                        <div class="info-name">实名认证</div>
+                        <p><span class="ftx-02">您还未实名认证该账户，立即实名认证可加快提现速度。</span></p>
+                    </div>
+                    <div class="item-handle">
+                        <a href="#" class="handle-btn handle-btn2">
+                            立即认证
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="no-records">
-                <i class="no-icon">
-                </i>
-                <h3>主人你还没有买东西呢</h3>
-            </div>
         </div>
     </div>
-
     <script src="../js/jquery-3.5.1.js"></script>
     <script src="../js/user_order.js"></script>
 </body>
