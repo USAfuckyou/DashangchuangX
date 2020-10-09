@@ -935,3 +935,16 @@ textarea {
 .acc1 span em {
     font-style: normal;
 }
+
+
+/* 我的众筹哦 */
+
+.no-records a {
+    padding: 5px 10px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    color: #666;
+    font-size: 12px;
+    border-radius: 5px;
+}
