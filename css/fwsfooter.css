@@ -11,6 +11,9 @@
     color: white;
     margin-top: 400px;
 }
+.foo-init{
+    margin-top: 50px!important;
+}
 
 .fwsfooter {
     width: 1200px;

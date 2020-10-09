@@ -182,6 +182,7 @@ body>header {
     width: 100%;
     background-color: #fff;
     position: relative;
+    border-bottom: 3px solid red;
 }
 
 .header_top {
@@ -242,7 +243,7 @@ body>header {
     margin-right: 18px;
     padding: 0 5px;
     position: relative;
-    z-index: 5;
+    z-index: 999;
     box-sizing: border-box;
 }
 
@@ -475,29 +476,213 @@ body>header {
     width: 1200px;
     margin: 0px auto;
     background-color: #fff;
-    margin-bottom: 15px;
 }
 
 .hb_title {
     width: 100%;
     height: 40px;
     display: flex;
-    border-bottom: 2px solid red;
     position: relative;
 }
+/* 男装女装头部样式  start*/
+.hb_package .cn_goods_nav{
+    display: block;
+}
+.cn_goods_nav{
+    width: 250px;
+    height: 451px;
+    z-index: 99;
+    position: absolute;
+    top: 42px;
+    left: 0px;
+    background-color: #FD5F8E;
+    color: #fff;
+}
+.cn_goods_nav>ul>li{
+    height: 90px;
+    width: 100%;
+}
+.cn_goods_nav>ul>li .item-content{
+    width: 230px;
+    height: 64px;
+    margin: 0px auto;
+    border-bottom: 1px dashed #FE8FB0;
+    padding: 14.5px 0;
+    position: relative;
+}
+.cn_goods_nav>ul>li a{
+    color: #fff;
+}
+.cn_goods_nav>ul>li>.item-content>i{
+    position: absolute;
+    top: 16px;
+    right: 5px;
+}
+.categorys-title>span{
+    font-size: 12px;
+}
+.categorys-title>span a{
+    margin-right: 33px;
+}
+.categorys-content{
+    width: 370px;
+    height: 428px;
+    padding: 20px 20px 0;
+    border: 1px solid #E02B61;
+    position: absolute;
+    top: 1px;
+    left: 250px;
+    background-color: #fff;
+    clear: both;
+    display: none;
+}
+.categorys-content a{
+    color: #333!important;
+}
+.categorys-content a:hover{
+    color: #f00!important;
+}
+.categorys-content h3{
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+.categorys-content .cate-list{
+    display: flex;
+    width: 190px;
+    flex-wrap: wrap;
+    float: left;
+}
+.categorys-content .cate-list li{
+    width: 95px;
+    font-size: 12px;
+    margin: 5px 0;
+}
+.categorys-content .cate-logo{
+    width: 180px;
+    height: 235px;
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:space-between ;
+}
+.categorys-content .cate-logo li{
+    border: 1px solid #ccc;
+}
+.categorys-content .cate-logo li img{
+    width: 85px;
+    height: 49px;
+}
+/* 男装女装头部样式  end*/
+
+/* 家用电器 start */
+.jiadian_goods{
+    background-color: #027BD6!important;
+}
+.jiadian_goods+.cn_goods_nav{
+    background-color: #2984EB;
+    top: 40px;
+    height: 400px;
+}
+.categorys-item{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+}
+.categorys-item .item-content{
+    width: 180px;
+    border-bottom: 1px dashed #4B94E6;
+    padding: 15px 0;
+    margin: 0px auto;
+    position: relative;
+
+}
+/* 箭头 */
+.categorys-item .item-content>span{
+    display: inline-block;
+    border-top: 10px solid #2984EB;
+    border-right: 10px solid #2984EB;
+    border-left: 10px solid transparent;
+    border-bottom:10px solid transparent;
+    position: absolute;
+    top: 35%;
+    right: -44px;
+    transform: rotateZ(45deg);
+    z-index: 99;
+    visibility: hidden;
+}
+.categorys-item .item-content .categorys-title>span>a{
+    color: #fff;
+    margin-right: 15px;
+}
+.categorys-items-layer{
+    width: 445px;
+    height: 375px;
+    position: absolute;
+    top: 15px;
+    left: 250px;
+    background-color: #fff;
+    display: none;
+}
+.categorys-items-layer .cil_content{
+    padding: 20px 20px 0;
+    width: 190px;
+    float: left;
+}
+.categorys-items-layer .cil_content ol{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.categorys-items-layer .cil_content h3{
+    color: #333;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+}
+.categorys-items-layer .cil_content ol li{
+    width: 85px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 0;
+    background-color: #F8F8F8;
+}
+.categorys-items-layer .cil_content ol li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.categorys-items-layer .cil_content ol li a:hover{
+    background: #434D55;
+    color: #fff;
+}
+
+.categorys-items-layer img{
+    height: 100%;
+}
+
+/* 家用电器 end */
 
 .hb_package .hb_goods_nav {
     position: absolute;
     top: 42px;
     left: 0px;
     display: none;
+    z-index: 88;
 }
 .hb_package>.hb_goods_nav>ol {
     background-color: rgba(0, 0, 0, 0.5);
 }
-
+.clothing_goods{
+    background-color: #EE356C!important;
+    border-bottom: 2px solid #EE356C;
+}
 .type_goods {
-    width: 232px;
+    width: 250px;
     background-color: #f00;
     font-weight: 700;
     line-height: 40px;
@@ -540,7 +725,7 @@ body>header {
 }
 
 .hb_goods_nav>ol {
-    width: 232px;
+    width: 250px;
     background-color: #333;
 }
 
@@ -582,11 +767,12 @@ body>header {
     height: 470px;
     position: absolute;
     top: 0px;
-    left: 232px;
+    left: 250px;
     background-color: #fff;
     padding: 15px;
     z-index: 10;
     display: none;
+    box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.1);
 }
 
 .goods_info .gi_left {
