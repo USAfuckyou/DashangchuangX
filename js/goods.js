@@ -102,46 +102,6 @@ yzgoodsplay.onmouseout = function () {
     yzenlarg.style.display = "none";
 }
 
-yzsml.flag = 0;
-yziet.flag = 0;
-yzsml.onclick = yziet.onclick = function () {
-    if (this.parentElement.className == "yz-setmeal yz-selected") {
-        if (yzsml.flag == 0) {
-            this.parentElement.style.height = (this.parentElement.children.length - 1) * 30 + "px";
-            yzsml.flag++;
-        } else {
-            this.parentElement.style.height = "30px";
-
-            yzsml.flag--;
-        }
-    } else if (this.parentElement.className == "yz-increment yz-selected") {
-        if (yziet.flag == 0) {
-            this.parentElement.style.height = (this.parentElement.children.length - 1) * 30 + "px";
-            yziet.flag++;
-        } else {
-            this.parentElement.style.height = "30px";
-
-            yziet.flag--;
-        }
-    }
-}
-// console.log(yznumber)
-yzjia.onclick = function () {
-    yznumber.value++;
-}
-yzjian.onclick = function () {
-    if (yznumber.value != 1) {
-        yznumber.value--;
-    }
-}
-for (var m = 0; m < yzstaging.children.length; m++) {
-    yzstaging.children[m].onclick = function () {
-        for (var i = 0; i < yzstaging.children.length; i++) {
-            yzstaging.children[i].className = "";
-        }
-        this.className = "keyselect1";
-    }
-}
 var yzlasimg = document.querySelector(".yz-lasimg");
 var yzexchange = document.getElementsByClassName("yz-exchange");
 yzlasimg.index = 0;
@@ -156,7 +116,51 @@ yzlasimg.onclick = function () {
     }
 }
 
-$('#myTabs a').click(function (e) {
-    e.preventDefault()
-    $(this).tab('show')
-})
+
+
+$(".ps>div>span").click(function (e) {
+    $(this).parent().toggleClass("play1").children("div").toggleClass("play2");
+});
+var abssd = {
+    "北京市": {
+        "北京市": ["朝阳区", "海淀区", "通州区"]
+    },
+    "河南省": {
+        "郑州市": ["中原区", "二七区", "新郑市"],
+        "南阳市": ["南阳市", "卧龙区", "邓州市"],
+        "新乡市": ["新乡市", "卫滨区", "红旗区"]
+    },
+    "江苏省": {
+        "苏州市": ["金阊区", "沧浪区", "平江区"],
+        "徐州市": ["徐州市", "云龙区", "鼓楼区"]
+    }
+}
+var sheng = "";
+$.each(abssd, function (index, value) {
+    sheng += "<span>" + index + "</span>";
+});
+$(".ps>div>div>div").children("#sheng").html(sheng).on("click", "span", function () {
+    $(this).parents("[class^=tab-content]").prev().find('[href="#sheng"]').text($(this).text()).parent().toggleClass("active");
+    $(this).parents("[class^=tab-content]").prev().find('[href="#sheng"]').parent().next().addClass("active");
+    $(this).parent().toggleClass("active");
+    var shi = "";
+    var i = $(this).parents("[class^=tab-content]").prev().find('[href="#sheng"]').text();
+    $.each(abssd[i], function (index, value) {
+        shi += "<span>" + index + "</span>";
+    });
+    $(".ps>div>div>div").children("#shi").html(shi).off().on("click", "span", function () {
+        $(this).parents("[class^=tab-content]").prev().find('[href="#shi"]').text($(this).text()).parent().toggleClass("active");
+        $(this).parents("[class^=tab-content]").prev().find('[href="#shi"]').parent().next().addClass("active");
+        $(this).parent().toggleClass("active");
+        var xian = "";
+        $.each(abssd[i][$(this).parents("[class^=tab-content]").prev().find('[href="#shi"]').text()], function (index, value) {
+            xian += "<span>" + value + "</span>";
+        });
+        $(".ps>div>div>div").children("#xian").html(xian).off().on("click", "span", function () {
+            $(".ps>div>span:first").text($('[href = "#sheng"]').text() + "," + $('[href="#shi"]').text() + "," + $(this).text())
+            $(".ps>div>div").parent().toggleClass("play1").children("div").toggleClass("play2");
+        });
+        $(this).parent().next().addClass("active");
+    });
+    $(this).parent().next().addClass("active");
+});

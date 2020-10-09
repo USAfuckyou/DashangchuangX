@@ -20,11 +20,17 @@ a {
 
 .fontcolor1:hover {
     transition: all 1s;
-    color: #00D7DC !important;
+    color: red !important;
 }
 
 .fontcolor2 {
-    color: #00D7DC !important;
+    font-style: normal;
+    color: red !important;
+}
+
+.fontcolor3 {
+    text-decoration: none;
+    color: gray !important;
 }
 
 /* 版心 */
@@ -134,17 +140,15 @@ a {
     float: left;
 }
 
-.yz-toleft::before {
-    content: "\e67e";
+.yz-toleft>span,
+.yz-toright>span {
+    font-size: 12px;
 }
 
 .yz-toright {
     float: right;
 }
 
-.yz-toright::before {
-    content: "\e67d";
-}
 
 
 /* 中间轮播 */
@@ -190,11 +194,11 @@ a {
     margin-top: 15px;
 }
 
-.yz-collect>a::before {
-    content: "\e632";
-    margin: 0px 5px 0px 5px;
-    font-size: 20px;
+.yz-collect>a {
+    border-right: 1px solid gray;
+    padding: 0px 15px;
 }
+
 
 
 /* 中部价位信息 */
@@ -314,20 +318,42 @@ a {
     display: inline-block;
 }
 
+
 .ps>div {
     position: relative;
     padding: 5px 10px;
     border: 1px solid rgb(184, 182, 182);
-    border-bottom-color: white;
+    z-index: 2;
+}
+
+.play1 {
+    border-bottom-color: white !important;
+}
+
+.play2 {
+    display: block !important;
 }
 
 .ps>div>div {
+    width: 200%;
     position: absolute;
     top: 101%;
     left: 0px;
     border: 1px solid rgb(207, 207, 207);
-    z-index: -1;
     background-color: white;
+    display: none;
+}
+
+.ps>div>div>div>div {
+    padding: 10px;
+}
+
+.ps>div>div>div>div>span {
+    padding: 0px 30px;
+}
+
+.ps>div>div>div>div>span:hover {
+    color: red;
 }
 
 .yz-selected {
@@ -345,16 +371,6 @@ a {
 
 .yz-merge::after {
     content: "\e60b";
-}
-
-input[type=checkbox] {
-    -webkit-appearance: none;
-    width: 25px;
-    height: 25px;
-    background-color: white;
-    border: 2px solid #9d9ea0 !important;
-    border-radius: 3px;
-    outline: none;
 }
 
 .yz-selected>p>label>input {
@@ -383,7 +399,7 @@ input[type=checkbox] {
 
 .yz-number>input[type="number"] {
     width: 30px;
-    height: 30px;
+    height: 28px;
     outline: none;
 }
 
@@ -398,6 +414,7 @@ input[type=checkbox] {
     display: inline-block;
     text-align: center;
     margin-left: -5px;
+    margin-top: -5px;
 }
 
 .yz-number>div>span {
@@ -428,8 +445,13 @@ input[type=checkbox] {
     padding: 5px 28px !important;
 }
 
-.yz-settlement>a>div {
-    display: inline-block;
+.yz-settlement {
+    display: flex;
+    justify-content: center;
+}
+
+.yz-settlement>a {
+    margin: 0px 10px;
     width: 180px;
     height: 40px;
     text-align: center;
@@ -437,41 +459,34 @@ input[type=checkbox] {
     font-size: 15px;
 }
 
-.yz-settlement>a:first-child>div {
-    background-color: #F9D6D7;
+.dscicon {
+    width: 26px;
+    height: 21px;
+    display: inline-block;
+    background: url(../img/yz/goods-img/dsc-icon.png) no-repeat -260px 0px;
+    float: right;
 }
 
-.yz-settlement>a:nth-child(2)>div {
-    background-color: #00EEF3;
-    margin-left: 20px;
+.xgfl {
+    padding: 15px 30px !important;
 }
 
-.yz-settlement>a:nth-child(2)>div::before {
-    content: "\344b";
+.xgfl>ul,
+li {
+    list-style-type: disc !important;
 }
 
-.yz-settlement>a:last-child {
-    margin-left: 20px;
-    position: relative;
+.xgfl>ul>li {
+    padding: 5px 0px;
 }
 
-.yz-settlement>a:last-child>div {
-    width: 150px;
-    height: 150px;
-    background-color: white;
-    position: absolute;
-    top: -45px;
-    left: 30px;
-    display: none;
+.xgfl>ul>li>a {
+    color: gray;
+    font-size: 13px;
 }
 
-.yz-settlement>a:last-child>div>img {
-    width: 80%;
-}
-
-.yz-erweima:hover #yz-ewm1 {
-    display: block;
-    z-index: 6;
+.btn {
+    padding: 0px !important;
 }
 
 .yz-bssss>span {
@@ -530,4 +545,38 @@ input[type=checkbox] {
 
 .yz-ehe {
     display: block;
+}
+
+.dashed-mma {
+    width: 10px;
+    height: calc(100% - 0px);
+    border-right: 1px dashed gray;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+}
+
+.rank-num {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    background-color: black;
+    color: white;
+}
+
+.rank-num:nth-of-type(1),
+.rank-num:nth-of-type(2),
+.rank-num:nth-of-type(3) {
+    background-color: red;
+}
+
+.rank-imgs {
+    width: 100%;
+    padding: 15px;
+}
+
+.rank-imgs img {
+    width: 100%;
 }
