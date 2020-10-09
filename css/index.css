@@ -21,6 +21,11 @@ body {
   position: absolute;
   z-index: -2;
 }
+#enlarge{
+  transform: scale(1.2);
+  margin-top: 300px;
+}
+
 .nh-main {
   width: 1000px;
   box-sizing: border-box;
@@ -49,30 +54,30 @@ body {
   width: inherit;
   padding: 5px 0px;
 }
-.nh-main .nh-box .ms header {
+.nh-main .nh-box .ms>header {
   width: inherit;
   display: flex;
   justify-content: space-between;
   padding: 8px 0px;
 }
-.nh-main .nh-box .ms header h3 {
+.nh-main .nh-box .ms>header h3 {
   font-size: 20px;
   font-family: 楷体;
   color: white;
 }
-.nh-main .nh-box .ms header p {
+.nh-main .nh-box .ms>header p {
   font-size: 13px;
   font-size: 楷体;
   color: #fed00e;
 }
-.nh-main .nh-box .ms header a {
+.nh-main .nh-box .ms>header a {
   border: 1px solid white;
   border-radius: 15px;
   padding: 2px 10px;
   font-size: 12px;
   color: white;
 }
-.nh-main .nh-box .ms header a::after {
+.nh-main .nh-box .ms>header a::after {
   content: "\e646";
 }
 .nh-main .nh-box .ms .ms-main {
