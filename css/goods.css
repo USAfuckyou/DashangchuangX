@@ -204,7 +204,8 @@ a {
 }
 
 .yz-goods>h3 {
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .yz-goods>p {
@@ -215,7 +216,7 @@ a {
 .yz-goods>div {
     width: 645px;
     padding: 10px 0px;
-    background: url(../img/Commodityinterface/goods_detail_bg.png);
+    background: url(../img/yz/goods-img/summary-bg.jpg);
     position: relative;
 }
 
@@ -303,9 +304,30 @@ a {
     position: relative;
 }
 
+
 .yz-goods>dl:nth-of-type(2)>dd img {
     width: 30px;
     vertical-align: middle;
+}
+
+.ps {
+    display: inline-block;
+}
+
+.ps>div {
+    position: relative;
+    padding: 5px 10px;
+    border: 1px solid rgb(184, 182, 182);
+    border-bottom-color: white;
+}
+
+.ps>div>div {
+    position: absolute;
+    top: 101%;
+    left: 0px;
+    border: 1px solid rgb(207, 207, 207);
+    z-index: -1;
+    background-color: white;
 }
 
 .yz-selected {

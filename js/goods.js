@@ -155,3 +155,8 @@ yzlasimg.onclick = function () {
         yzlasimg.index = 0;
     }
 }
+
+$('#myTabs a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+})
