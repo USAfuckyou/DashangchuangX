@@ -6,7 +6,7 @@
 
 ul,
 li {
-    list-style: none;
+    list-style: none !important;
 }
 
 a {
@@ -472,7 +472,7 @@ a {
 }
 
 .xgfl>ul,
-li {
+.xgfl>li {
     list-style-type: disc !important;
 }
 
@@ -549,11 +549,12 @@ li {
 
 .dashed-mma {
     width: 10px;
-    height: calc(100% - 0px);
+    height: calc(100% - 54px);
     border-right: 1px dashed gray;
     position: absolute;
     top: 0px;
     left: 50%;
+    z-index: -1;
 }
 
 .rank-num {
@@ -564,6 +565,7 @@ li {
     line-height: 25px;
     background-color: black;
     color: white;
+    margin: 45px 0px 178px;
 }
 
 .rank-num:nth-of-type(1),
@@ -579,4 +581,28 @@ li {
 
 .rank-imgs img {
     width: 100%;
+}
+
+.rank-imgs>p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 13px;
+    margin: 5px 0px;
+}
+
+.rank-imgs>p:hover {
+    color: red;
+}
+
+.rank-imgs>span {
+    color: red;
+}
+
+.zjll>div {
+    font-size: 13px;
+}
+
+.zjll>div>a {
+    float: right;
 }

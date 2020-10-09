@@ -164,3 +164,10 @@ $(".ps>div>div>div").children("#sheng").html(sheng).on("click", "span", function
     });
     $(this).parent().next().addClass("active");
 });
+
+$(".zjll>.panel-heading>a").on("click", function () {
+    if ($(this).parent().siblings().children().length != 0) {
+        $(this).parent().siblings().children().remove();
+        $(this).parent().siblings().html(`<p style="text-align:center;line-height:35px;">您已清空最近浏览过的商品<br><a href="">去购物<a><p>`)
+    }
+})
