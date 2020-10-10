@@ -844,6 +844,9 @@ body>header {
     line-height: 20px;
     display: none;
 }
+.uo_midden>ul li>.uo_con>p:hover{
+    color: #f00;
+}
 
 .uo_midden>ul li>.active {
     display: block;
