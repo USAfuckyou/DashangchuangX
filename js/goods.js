@@ -44,7 +44,7 @@ if (localStorage.getItem("goodss")) {
     $(".yz-ul").html(yzulimgs);
     $(".yz-goods>h3").text(goods_imgs[locat].title)
 }
-
+// document.onload = function(){}
 // 手动轮播
 function run(ele, target) {
     clearInterval(ele.time);
@@ -205,15 +205,15 @@ $(".zjll>.panel-heading>a").on("click", function () {
     }
 })
 
-var goods_imgs = [{
-    "title": "Razer雷蛇 雨林狼蛛幻彩版 Ornata Chroma 机械式薄膜游戏键盘",
-    "imgs": ["../img/yz/goods-img/t1.jpg", "../img/yz/goods-img/t2.jpg", "../img/yz/goods-img/t3.jpg", "../img/yz/goods-img/t4.jpg"]
-}, {
-    "title": "新款学院风韩版时尚太空棉宽松长袖印花圆领卫衣女",
-    "imgs": ["../img/yz/goods-img/tt1.jpg", "../img/yz/goods-img/tt2.jpg", "../img/yz/goods-img/tt3.jpg"]
-}, {
-    "title": "伊米妮2017春新款简约时尚自然摔牛皮单肩手提大小版波士顿包女包 简约时尚 自然摔牛皮 单肩手提 波士顿包",
-    "imgs": ["../img/yz/goods-img/ttt1.jpg", "../img/yz/goods-img/ttt2.jpg", "../img/yz/goods-img/ttt3.jpg", "../img/yz/goods-img/ttt4.jpg", "../img/yz/goods-img/ttt5.jpg", "../img/yz/goods-img/ttt6.jpg"]
-}];
+// var goods_imgs = [{
+//     "title": "Razer雷蛇 雨林狼蛛幻彩版 Ornata Chroma 机械式薄膜游戏键盘",
+//     "imgs": ["../img/yz/goods-img/t1.jpg", "../img/yz/goods-img/t2.jpg", "../img/yz/goods-img/t3.jpg", "../img/yz/goods-img/t4.jpg"]
+// }, {
+//     "title": "新款学院风韩版时尚太空棉宽松长袖印花圆领卫衣女",
+//     "imgs": ["../img/yz/goods-img/tt1.jpg", "../img/yz/goods-img/tt2.jpg", "../img/yz/goods-img/tt3.jpg"]
+// }, {
+//     "title": "伊米妮2017春新款简约时尚自然摔牛皮单肩手提大小版波士顿包女包 简约时尚 自然摔牛皮 单肩手提 波士顿包",
+//     "imgs": ["../img/yz/goods-img/ttt1.jpg", "../img/yz/goods-img/ttt2.jpg", "../img/yz/goods-img/ttt3.jpg", "../img/yz/goods-img/ttt4.jpg", "../img/yz/goods-img/ttt5.jpg", "../img/yz/goods-img/ttt6.jpg"]
+// }];
 
 localStorage.removeItem("goodss");
