@@ -180,5 +180,27 @@ $(function(){
         })
     })
 
+    // 位置的滚动
+    $('.search-first-letter').children().children().mouseenter(function(e){
+        $('.al_position').scrollTop(0);
+        var top =$('.ap_content').children().eq($(this).index()).position().top
+        $('.al_position').stop().animate({
+            scrollTop:top
+        })
+    })
+
 });
+
+// 位置的滚动
+// 获取字母的标识
+// var searchLetters = document.querySelector('.search-first-letter').children[0].children;
+// var letterEle = document
+// console.log(searchLetters)
+// for(var i = 0; i < searchLetters.length; i++){
+//     (function(index){
+//         this.addEventListener('mouseove',function(){
+
+//         })
+//     })(i);
+// }
 

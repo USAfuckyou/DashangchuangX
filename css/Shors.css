@@ -20,7 +20,7 @@
 }
 
 .fone {
-    width: 240px;
+    width: 218px;
     height: 330px;
     border: 1px solid #efefef;
     margin-bottom: 30px;
@@ -56,6 +56,17 @@
     height: 40px;
     margin: auto;
 }
+.bods {
+    width: 100%;
+    padding: 35px 0;
+}
+
+.bodsxin {
+    width: 1200px;
+    height: 40px;
+    margin: auto;
+}
+
 
 .aos {
     width: 100%;
@@ -86,7 +97,7 @@
 
 .bosleft,
 .bosright {
-    width: 50px;
+    width: 49px!important;
     height: 50px;
     border: 1px solid teal;
     font-size: 30px;
