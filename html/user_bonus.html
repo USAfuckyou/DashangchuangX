@@ -1,0 +1,1652 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-09-30 16:00:21
+ * @LastEditTime: 2020-10-10 13:02:38
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: \8yue\DASHANGCHUANG\DashangchuangX\html\user_order.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的红包</title>
+    <link rel="stylesheet" href="../css/user_order.css">
+    <link rel="stylesheet" href="../css/public-header.css">
+    <link rel="stylesheet" href="../css/fwsfooter.css" />
+</head>
+
+<body>
+    <header>
+        <!-- 头部的上部分 -->
+        <div class="rc_top">
+            <div class="rc_top_bar">
+                <ul>
+                    <li class="li_addstyle">
+                        <i class="iconfont icon-weizhi"></i>
+                        <a href="#">郑州市</a>
+                        <div>
+                            <img src="../img/zcf/loadGoods.gif" alt="">
+                        </div>
+                    </li>
+                    <li class="hea_login">
+                        <a href="#">请登录</a>
+                    </li>
+                    <li class="hea_register">
+                        <a href="#">免费注册</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">我的订单</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">我的浏览</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">我的收藏</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">客户服务</a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        网站导航
+                        <i class="iconfont icon-jiantouxia"></i>
+                        <div class="web_nav">
+                            <div>
+                                <ul>
+                                    <li>
+                                        <h3>特色主题</h3>
+                                    </li>
+                                    <li><a href="">家用电器</a></li>
+                                    <li><a href="">男装怒装</a></li>
+                                    <li><a href="">鞋靴箱包</a></li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <h3>促销活动</h3>
+                                    </li>
+                                    <li><a href="">拍卖活动</a></li>
+                                    <li><a href="">CMS频道</a></li>
+                                    <li><a href="">优惠券</a></li>
+                                </ul>
+                                <ul class="web_nav_style">
+                                    <li><a href="">共创商品</a></li>
+                                    <li><a href="">优惠活动</a></li>
+                                    <li><a href="">礼品卡</a></li>
+                                </ul>
+                                <ul class="web_nav_style">
+                                    <li><a href="">积分商城</a></li>
+                                    <li><a href="">超值礼包</a></li>
+                                    <li><a href="">预售商品</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_top">
+            <div class="left_logo">
+                <a href="../index.html"><img src="../img/zcf/shop_logo.gif" alt=""></a>
+            </div>
+            <div class="right_con">
+                <!-- 搜索商品 和店铺 -->
+                <div class="rc_bottom">
+                    <div class="rb_left">
+                        <div class="search_oper">
+                            <div class="search_inp">
+                                <input type="text" placeholder="手机">
+                            </div>
+                            <div class="search_goods">搜商品</div>
+                            <div class="search_shop">搜店铺</div>
+                            <ul>
+                                <li><a href="#">周大福</a></li>
+                                <li><a href="#">内衣</a></li>
+                                <li><a href="#">Five Plus</a></li>
+                                <li><a href="#">手机</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rb_right">
+                        <div class="rb_cart">
+                            <i class="iconfont icon-gouwuche1"></i> 我的购物车
+                            <span>0</span>
+                        </div>
+                        <div class="cart_hover">
+                            <img src="../img/zcf/cart-nogoods.png" alt="">
+                            <span>购物车中还没有商品，赶紧选吧！</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 商品分类 -->
+        <div class="hea_bottom">
+            <div class="hb_title">
+                <div class="hb_package">
+                    <div class="type_goods">
+                        <a href="#">全部商品分类</a>
+                    </div>
+                    <div class="hb_goods_nav">
+                        <ol>
+                            <li>
+                                <div>
+                                    <i class="iconfont icon-jiayongdianqi"></i>
+                                </div>
+                                <div class="goods_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="#">家用电器</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">厨房电器</a>
+                                            <a href="#">大家电</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- 鼠标移入时显示内容 -->
+                                <div class="goods_info">
+                                    <div class="gi_left">
+                                        <div class="gi_title">
+                                            <a href="#"><span>品牌日</span></a>
+                                            <a href="#"><span>家电城</span></a>
+                                            <a href="#"><span>智能生活馆</span></a>
+                                            <a href="#"><span>京东净化馆</span></a>
+                                            <a href="#"><span>京东帮服务店</span></a>
+                                            <a href="#"><span>值的买精选</span></a>
+                                        </div>
+                                        <div class="gi_content">
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>大家电</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">平板电脑</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">空调</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冰箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">洗衣机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">家庭影院</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">DVD</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">迷你音响</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">热水器</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冷吧/冰柜</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div class="gi_right">
+                                        <ol>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/all7.jpg" alt="">
+                                                </a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <i class="iconfont icon-yifu"></i>
+                                </div>
+                                <div class="goods_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="#">男装、</a>
+                                            <a href="#">女装、</a>
+                                            <a href="#">内衣</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">男装</a>
+                                            <a href="#">女装</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- 鼠标移入时显示内容 -->
+                                <div class="goods_info">
+                                    <div class="gi_left">
+                                        <div class="gi_title">
+                                            <a href="#"><span>男装</span></a>
+                                            <a href="#"><span>女装</span></a>
+                                            <a href="#"><span>内衣</span></a>
+                                            <a href="#"><span>国际品牌</span></a>
+                                        </div>
+                                        <div class="gi_content">
+                                            <dl>
+                                                <dt>女装</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">连衣裙</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">蕾丝/雪纺衫</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">T恤</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">半身裙</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">休闲裤</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">短裤</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">小西服</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">风衣</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>男装</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">T恤</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">裤子</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">休闲裤</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>服饰配件</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">配饰</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">棒球帽</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">远阳帽</a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div class="gi_right">
+                                        <ol>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/all7.jpg" alt="">
+                                                </a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <i class="iconfont icon-xie"></i>
+                                </div>
+                                <div class="goods_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="#">鞋靴、</a>
+                                            <a href="#">箱包、</a>
+                                            <a href="#">钟表、</a>
+                                            <a href="#">奢饰品</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">奢饰品</a>
+                                            <a href="#">功能箱包</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- 鼠标移入时显示内容 -->
+                                <div class="goods_info">
+                                    <div class="gi_left">
+                                        <div class="gi_title">
+                                            <a href="#"><span>品牌日</span></a>
+                                            <a href="#"><span>家电城</span></a>
+                                            <a href="#"><span>智能生活馆</span></a>
+                                            <a href="#"><span>京东净化馆</span></a>
+                                            <a href="#"><span>京东帮服务店</span></a>
+                                            <a href="#"><span>值的买精选</span></a>
+                                        </div>
+                                        <div class="gi_content">
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>大家电</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">平板电脑</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">空调</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冰箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">洗衣机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">家庭影院</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">DVD</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">迷你音响</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">热水器</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冷吧/冰柜</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div class="gi_right">
+                                        <ol>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/all7.jpg" alt="">
+                                                </a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <i class="iconfont icon-tubiaozhizuo-"></i>
+                                </div>
+                                <div class="goods_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="#">手机、</a>
+                                            <a href="#">数码、</a>
+                                            <a href="#">通信</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">摄影摄像</a>
+                                            <a href="#">手机配件</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- 鼠标移入时显示内容 -->
+                                <div class="goods_info">
+                                    <div class="gi_left">
+                                        <div class="gi_title">
+                                            <a href="#"><span>品牌日</span></a>
+                                            <a href="#"><span>家电城</span></a>
+                                            <a href="#"><span>智能生活馆</span></a>
+                                            <a href="#"><span>京东净化馆</span></a>
+                                            <a href="#"><span>京东帮服务店</span></a>
+                                            <a href="#"><span>值的买精选</span></a>
+                                        </div>
+                                        <div class="gi_content">
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>大家电</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">平板电脑</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">空调</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冰箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">洗衣机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">家庭影院</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">DVD</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">迷你音响</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">热水器</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冷吧/冰柜</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div class="gi_right">
+                                        <ol>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/all7.jpg" alt="">
+                                                </a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <i class="iconfont icon-diannao"></i>
+                                </div>
+                                <div class="goods_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="#">电脑、</a>
+                                            <a href="#">办公</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">电脑整机</a>
+                                            <a href="#">电脑配件</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- 鼠标移入时显示内容 -->
+                                <div class="goods_info">
+                                    <div class="gi_left">
+                                        <div class="gi_title">
+                                            <a href="#"><span>品牌日</span></a>
+                                            <a href="#"><span>家电城</span></a>
+                                            <a href="#"><span>智能生活馆</span></a>
+                                            <a href="#"><span>京东净化馆</span></a>
+                                            <a href="#"><span>京东帮服务店</span></a>
+                                            <a href="#"><span>值的买精选</span></a>
+                                        </div>
+                                        <div class="gi_content">
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>大家电</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">平板电脑</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">空调</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冰箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">洗衣机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">家庭影院</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">DVD</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">迷你音响</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">热水器</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冷吧/冰柜</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div class="gi_right">
+                                        <ol>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/all7.jpg" alt="">
+                                                </a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <i class="iconfont icon-icon-test"></i>
+                                </div>
+                                <div class="goods_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="#">家居、</a>
+                                            <a href="#">家具、</a>
+                                            <a href="#">家装、</a>
+                                            <a href="#">厨具</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">家具</a>
+                                            <a href="#">厨具</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- 鼠标移入时显示内容 -->
+                                <div class="goods_info">
+                                    <div class="gi_left">
+                                        <div class="gi_title">
+                                            <a href="#"><span>品牌日</span></a>
+                                            <a href="#"><span>家电城</span></a>
+                                            <a href="#"><span>智能生活馆</span></a>
+                                            <a href="#"><span>京东净化馆</span></a>
+                                            <a href="#"><span>京东帮服务店</span></a>
+                                            <a href="#"><span>值的买精选</span></a>
+                                        </div>
+                                        <div class="gi_content">
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>大家电</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">平板电脑</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">空调</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冰箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">洗衣机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">家庭影院</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">DVD</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">迷你音响</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">热水器</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冷吧/冰柜</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div class="gi_right">
+                                        <ol>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/all7.jpg" alt="">
+                                                </a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <i class="iconfont icon-huazhuang"></i>
+                                </div>
+                                <div class="goods_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="#">个人化妆、</a>
+                                            <a href="#">清洁用品</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">面部护肤</a>
+                                            <a href="#">洗发护发</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- 鼠标移入时显示内容 -->
+                                <div class="goods_info">
+                                    <div class="gi_left">
+                                        <div class="gi_title">
+                                            <a href="#"><span>品牌日</span></a>
+                                            <a href="#"><span>家电城</span></a>
+                                            <a href="#"><span>智能生活馆</span></a>
+                                            <a href="#"><span>京东净化馆</span></a>
+                                            <a href="#"><span>京东帮服务店</span></a>
+                                            <a href="#"><span>值的买精选</span></a>
+                                        </div>
+                                        <div class="gi_content">
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>大家电</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">平板电脑</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">空调</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冰箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">洗衣机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">家庭影院</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">DVD</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">迷你音响</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">热水器</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">冷吧/冰柜</a></dd>
+                                            </dl>
+                                            <dl>
+                                                <dt>厨房电器</dt>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电饭煲</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">压力电锅豆浆机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">面包机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">咖啡机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">微波炉</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">料理/榨汁机</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电烤箱</a></dd>
+                                                <dd class="spacer"></dd>
+                                                <dd><a href="">电磁炉</a></dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div class="gi_right">
+                                        <ol>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/1.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/2.jpg" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="../img/zcf/all7.jpg" alt="">
+                                                </a>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="nav_page">
+                    <ul>
+                        <li>
+                            <a href="../index.html" class="nav_active">首页</a>
+                        </li>
+                        <li>
+                            <a href="#">个护美妆</a>
+                        </li>
+                        <li>
+                            <a href="../html/clothing.html">服装城</a>
+                        </li>
+                        <li>
+                            <a href="#">家用电器</a>
+                        </li>
+                        <li>
+                            <a href="#">鞋靴箱包</a>
+                        </li>
+                        <li>
+                            <a href="#">聚划算</a>
+                        </li>
+                        <li>
+                            <a href="#">预售</a>
+                        </li>
+                        <li>
+                            <a href="#">店铺街</a>
+                        </li>
+                        <li>
+                            <a href="#">品牌专区</a>
+                        </li>
+                        <li>
+                            <a href="#">公告</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- 最外面的整体 -->
+    <div class="user-content">
+        <!-- 左侧导航栏 -->
+        <div class="user-side">
+            <!-- 用户信息 -->
+            <div class="user-perinfo-ny">
+                <div class="portrait">
+                    <a href="#" class="u-pic"><img src="../img/zzh/errorImg.gif"></a>
+                </div>
+                <!-- 用户姓名 -->
+                <div class="u-name">
+                    <h2>用户名</h2>
+                    <div class="duanwei">王者</div>
+                </div>
+            </div>
+            <!-- 导航栏主体 -->
+            <div class="user-mod">
+                <dl>
+                    <dt>
+                        <p class="square"> <span class="squarepuls"></span> -</p>
+                        <span>订单中心</span>
+                    </dt>
+                    <dd>
+                        <p>
+                            <a href="../html/user_order.html">我的订单</a>
+                        </p>
+                        <p>
+                            <a href="../html/user_address.html">收获地址</a>
+                        </p>
+                        <p>
+                            <a href="../html/user_quehuo.html">缺货等级</a>
+                        </p>
+                        <p>
+                            <a href="../html/user_tuihuan.html">退还货订单</a>
+                        </p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p class="square"> <span class="squarepuls"></span> -</p>
+                        <span>会员中心</span>
+                    </dt>
+                    <dd>
+                        <p>
+                            <a href="../html/user_data.html">用户信息</a>
+                        </p>
+                        <p>
+                            <a href="../html/user_security.html">账户安全</a>
+                        </p>
+                        <p>
+                            <a href="../html/user_binding.html">账号绑定</a>
+                        </p>
+                        <p>
+                            <a href="../html/user_zhongchou.html">我的众筹</a>
+                        </p>
+                        <p>
+                            <a href="../html/user_shoucang.html">收藏/关注</a>
+                        </p>
+                        <p>
+                            <a href="../html/user_message.html">我的留言</a>
+                        </p>
+                        <p>
+                            <a href="../html/user_recommend.html">分销推荐</a>
+                        </p>
+                        <p>
+                            <a href="">评论/晒单</a>
+                        </p>
+                        <p>
+                            <a href="">我的提货</a>
+                        </p>
+                        <p>
+                            <a href="">交易纠纷</a>
+                        </p>
+                        <p>
+                            <a href="">我的发票</a>
+                        </p>
+                        <p>
+                            <a href="">违规举报</a>
+                        </p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p class="square"> <span class="squarepuls"></span> -</p>
+                        <span>账户中心</span>
+                    </dt>
+                    <dd>
+                        <p>
+                            <a href="../html/user_bonus.html" class="mod-active">我的红包</a>
+                        </p>
+                        <p>
+                            <a href="">我的优惠券</a>
+                        </p>
+                        <p>
+                            <a href="">跟踪包裹</a>
+                        </p>
+                        <p>
+                            <a href="../html/user_fund.html">资金管理</a>
+                        </p>
+                        <p>
+                            <a href="">我的白条</a>
+                        </p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p class="square"> <span class="squarepuls"></span> -</p>
+                        <span>活动中心</span>
+                    </dt>
+                    <dd>
+                        <p>
+                            <a href="">拍卖活动</a>
+                        </p>
+                        <p>
+                            <a href="">夺宝奇兵</a>
+                        </p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <p class="square"> <span class="squarepuls"></span> -</p>
+                        <span>批发中心</span>
+                    </dt>
+                    <dd>
+                        <p>
+                            <a href="">我的采购单</a>
+                        </p>
+                        <p>
+                            <a href="">采购退货单</a>
+                        </p>
+                        <p>
+                            <a href="">我的求购单</a>
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 主题123 -->
+        <div class="user-main">
+            <div class="user-tittle">
+                <h2>我的红包</h2>
+            </div>
+            <!-- 用户名 -->
+            <div class="user-profile-info">
+                <div class="user-item">
+                    <form action="">
+                        <div class="part1 clearfix">
+                            <div class="item">
+                                <div class="label">
+                                    <span class="red">*</span> 红包卡号:
+                                </div>
+                                <div class="value">
+                                    <input type="text" class="text t-bonus" width="300">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="label">
+                                    <span class="red">*</span> 红包密码:
+                                </div>
+                                <div class="value">
+                                    <input type="text" class="text t-bonus" width="300">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="label">验证码:</div>
+                                <div class="value">
+                                    <input type="text" class="text" width="300">
+                                    <div id="yanzhengma" class="text">1221</div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="label"></div>
+                                <div class="value"><button id="senddata">绑定到当前账户</button></div>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <ul class="user-tabs tab1">
+                    <li> <a href="#" class="active">可用(0)</a> </li>
+                    <li> <a href="#">即将到期(0)</a> </li>
+                    <li> <a href="#">已用完(0)</a> </li>
+                    <li> <a href="#">已过期(0)</a> </li>
+                </ul>
+
+                <div class="no-records">
+                    <i class="no-icon">
+                </i>
+                    <h3>主人你还没有红包哦！</h3>
+                </div>
+                <div class="user-prompt">
+                    <span class="tit">我的红包温馨提示</span>
+                    <i>↓</i>
+                    <p>1、在上面输入红包卡号密码进行绑定或查询</p>
+                    <p>2、如果您持有旧版红包（卡号为19位），激活后请在" <span>我的红包</span> "中查询可用红包余额。</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="footer" class="foo-init">
+        <div class="fotop">
+            <div class="fotopxin">
+                <div class="ll">
+                    <i class="f-cn cha"></i>
+                    <span>七天包退</span>
+                </div>
+
+                <div class="ll">
+                    <i class="f-cn f-on1 cha"></i>
+                    <span>正品保障</span>
+                </div>
+
+                <div class="ll">
+                    <i class="f-cn f-on2 cha"></i>
+                    <span>好评如潮</span>
+                </div>
+
+                <div class="ll">
+                    <i class="f-cn f-on3 cha"></i>
+                    <span>闪电发货</span>
+                </div>
+
+                <div class="ll">
+                    <i class="f-cn f-on4 cha"></i>
+                    <span>权威荣耀</span>
+                </div>
+
+                <div class="ll mm">
+                    <i class="f-cn f-on5 cha "></i>
+                    <span>4001-021-758</span>
+                    <div style="display: none;"></div>
+                </div>
+
+                <div class="ll mn">
+                    <i class="f-cn f-on6 cha"></i>
+                    <span>咨询客服</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="fwsfooter">
+            <ul>
+                <li>
+                    <h2>新手上路</h2>
+                    <span>售后流程</span><br>
+                    <span>购物流程</span><br>
+                    <span>订购方式</span><br>
+                    <span></span><br>
+                </li>
+                <li>
+                    <h2>配送与支付</h2>
+                    <span>货到付款区域</span><br>
+                    <span>配送支付智能查询</span><br>
+                    <span>订购方式说明</span><br>
+                    <span></span><br></li>
+                <li>
+                    <h2>服务保证</h2>
+                    <span>退换货原则</span><br>
+                    <span>售后服务保证</span><br>
+                    <span>产品质量保证</span><br>
+                    <span></span><br></li>
+                <li>
+                    <h2>联系我们</h2>
+                    <span>网站故障报告</span><br>
+                    <span>选机咨询</span><br>
+                    <span>投诉与建议</span><br>
+                    <span></span><br></li>
+                <li>
+                    <h2>会员中心</h2>
+                    <span>资金管理</span><br>
+                    <span>我的收藏</span><br>
+                    <span>我的订单</span><br>
+                    <span></span><br></li>
+            </ul>
+            <div class="fwsfright">
+                <span class="fwsringt"><img src="../img/fws/fimg/ecjia_qrcode.jpg">
+                    关注微信
+                    </span>
+                <span><img src="../img/fws/fimg/ectouch_qrcode.jpg">
+                    下载APP
+                    </span>
+
+            </div>
+
+            <div class="fwsfd">
+                <div class="fwsfp1"><span>首页</span>|<span>隐私保护</span>|<span>联系我们</span>|<span>免费条款</span>|<span>公司简介</span>|<span>商家入驻</span>|<span>供应商入住</span>|<span>意见反馈</span></div>
+                <div class="fwsfp1 fwsfp2"><span>b2b2c</span>|&nbsp;&nbsp;&nbsp;<span>多用户商城系统</span>&nbsp;&nbsp;&nbsp;|<span>商城系统</span>|<span>ecjia新零售</span></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script src="../js/user_order.js"></script>
+    <script src="../js/public-header.js"></script>
+    <script src="../js/zcf-util.js"></script>
+</body>
+
+</html>

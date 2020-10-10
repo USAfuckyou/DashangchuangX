@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-10-06 20:25:37
- * @LastEditTime: 2020-10-08 17:50:07
+ * @LastEditTime: 2020-10-09 10:47:40
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \8yue\DASHANGCHUANG\DashangchuangX\js\user_order.js
@@ -24,5 +24,10 @@ $('.cite ').on('click', function() {
 });
 //提交信息
 $('#senddata').on('click', function() {
-    alert('信息已提交')
+        alert('信息已提交')
+    })
+    // 验证码
+$('#yanzhengma').on('click', function() {
+
+    $(this).text(Math.random().toString(36).substr(2, 4))
 })

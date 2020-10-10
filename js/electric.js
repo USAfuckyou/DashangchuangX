@@ -17,7 +17,9 @@ $('.l_actv').click(function() {
     zIndex++;
     ind++;
     $('.l_circle').eq(ind).addClass('l_active').siblings().removeClass('l_active');
-    $('.l_uli li').eq(ind).css('z-index', zIndex);
+    $('.l_uli li').eq(ind).animate({
+        'z-index': zIndex
+    });
     if (ind == $('.l_circle').length - 1) {
         ind = -1;
     }
@@ -25,7 +27,7 @@ $('.l_actv').click(function() {
 
 timer = setInterval(function() {
     $('.l_actv').click();
-}, 2000);
+}, 4000);
 // 热门推荐
 $('.l_mod').hover(function() {
     $(this).find($('.l_list-btn')).show();

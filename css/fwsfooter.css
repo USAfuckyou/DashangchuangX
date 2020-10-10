@@ -9,6 +9,10 @@
     height: 400px;
     background-color: #262626;
     color: white;
+    margin-top: 400px;
+}
+.foo-init{
+    margin-top: 50px!important;
 }
 
 .fwsfooter {

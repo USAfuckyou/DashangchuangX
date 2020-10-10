@@ -4,6 +4,12 @@ $(function(){
         $('.top_banner').fadeOut();
     })
 
+
+    // 导航栏点击样式
+    $('.nav_page>ul>li').click(function(e){
+        $(e.target).addClass('nav_active').parent('li').siblings().children('a').removeClass('nav_active')
+    })
+
     //走到一定距离显示的搜索框
     $(window).scroll(function(){
         if($(document).scrollTop() > $('.nav_page').offset().top){

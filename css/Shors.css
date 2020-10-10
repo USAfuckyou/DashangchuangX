@@ -1,0 +1,227 @@
+.box {
+    width: 100%;
+    height: 705px;
+}
+
+.boxin {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.bax {
+    width: 100%;
+    height: 385px;
+}
+
+.baxin {
+    width: 1200px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+.fone {
+    width: 240px;
+    height: 330px;
+    border: 1px solid #efefef;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    float: left;
+}
+
+.fone img {
+    width: 220px;
+    height: 220px;
+}
+
+.hq {
+    width: 100%;
+    height: 34px;
+    overflow: hidden;
+    margin: 20px 0 10px;
+    font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hevetica, \\5b8b\4f53, sans-serif;
+}
+
+.pone {
+    color: red;
+    font-size: 20px;
+}
+
+.bos {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.bosxin {
+    width: 1200px;
+    height: 40px;
+    margin: auto;
+}
+
+.aos {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.aosxin {
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+}
+
+.bsxin {
+    width: 1200px;
+    height: 40px;
+    margin: auto;
+}
+
+.bosan {
+    width: 1100px;
+    border-top: 1px solid teal;
+    border-bottom: 1px solid teal;
+    height: 50px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.bosleft,
+.bosright {
+    width: 50px;
+    height: 50px;
+    border: 1px solid teal;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+}
+
+.bosleft {
+    border-right: 0px!important;
+}
+
+.bosright {
+    border-left: 0px!important;
+}
+
+.bosone {
+    width: 100px;
+    float: left;
+    font-size: 21px;
+}
+
+.bastwo {
+    width: 1998px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bastwo li {
+    float: left;
+    width: 110px;
+    list-style: none;
+    border-right: 1px dashed #efefef;
+}
+
+.bastwo li img {
+    height: 40px;
+    margin-top: 5px;
+    width: auto;
+}
+
+.fstwo {
+    width: 100%;
+    height: 110px;
+    position: relative;
+}
+
+.sha {
+    float: left;
+    width: 40px;
+    height: 100px;
+    text-align: left;
+    display: inline-block;
+    font-size: 70px;
+    color: #f43434;
+    position: absolute;
+    top: 0;
+    left: -8px;
+}
+
+.twosun {
+    width: 82%;
+    height: 80px;
+    margin-top: 20px;
+    float: right;
+}
+
+.pone {
+    text-align: left!important;
+    color: #f42424;
+}
+
+.hoh {
+    font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hevetica, \\5b8b\4f53, sans-serif;
+    margin-bottom: 5px!important;
+}
+
+.imgtwo {
+    margin-left: 10px;
+    width: 200px!important;
+    height: 200px!important;
+}
+
+.boqtwo,
+.boqsan {
+    width: 1200px;
+}
+
+.baone {
+    position: relative;
+}
+
+.boqtwo {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: -100px;
+}
+
+#hignb {
+    color: red;
+}
+
+#higna {
+    color: black;
+}
+
+.tuhead {
+    width: 100%;
+    height: 400px;
+}
+
+.tuhead img {
+    width: 100%;
+    height: 100%;
+}
+
+.fone button {
+    border: 1px solid red;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 20%;
+}
+
+.ppone {
+    width: 75px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 37%;
+    text-align: center!important;
+}
