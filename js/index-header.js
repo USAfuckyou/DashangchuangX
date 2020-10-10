@@ -189,6 +189,9 @@ $(function(){
         })
     })
 
+    $('.rb_cart').get(0).onclick = function(){
+        location.href = 'html/shopping.html';
+    }
 });
 
 // 位置的滚动
