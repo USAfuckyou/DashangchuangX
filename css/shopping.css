@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 a {
@@ -99,7 +99,7 @@ body {
 
 .cm1 .cm1_list img {
     width: 16%;
-    height: 128%;
+    height: 85%;
 }
 
 .cm1 .cm1_list p {
