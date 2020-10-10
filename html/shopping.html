@@ -1,22 +1,13 @@
-<!--
- * @Author: your name
- * @Date: 2020-09-30 16:00:21
- * @LastEditTime: 2020-10-09 22:28:06
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \8yue\DASHANGCHUANG\DashangchuangX\html\user_order.html
--->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>账号绑定</title>
-    <link rel="stylesheet" href="../css/user_order.css">
+    <title>Document</title>
+    <script src="../js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="../css/shopping.css">
     <link rel="stylesheet" href="../css/fwsfooter.css" />
-    <link rel="stylesheet" href="../font/zzh/font_4rb6225b8lw/iconfont.css">
-    <link rel="stylesheet" href="../font/zzh/font_zcnz8bibd6/iconfont.css">
     <link rel="stylesheet" href="../css/public-header.css">
 </head>
 
@@ -1354,163 +1345,186 @@
     </header>
 
 
-    <!-- 最外面的整体 -->
-    <div class="user-content">
-        <!-- 左侧导航栏 -->
-        <div class="user-side">
-            <!-- 用户信息 -->
-            <div class="user-perinfo-ny">
-                <div class="portrait">
-                    <a href="#" class="u-pic"><img src="../img/zzh/errorImg.gif"></a>
-                </div>
-                <!-- 用户姓名 -->
-                <div class="u-name">
-                    <h2>用户名</h2>
-                    <div class="duanwei">王者</div>
-                </div>
+
+    <div class="mask">
+        <div class="positive">
+            <h1>确定删除该商品吗！</h1>
+            <button class="confirm">确定</button>
+            <button class="cancel">取消</button>
+        </div>
+    </div>
+    <div class="box">
+        <!-- 头部 -->
+        <div class="nav">
+            <div class="inputs"><input type="checkbox" class="All">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全选</div>
+            <div class="com">商品</div>
+            <div class="price">单价(元)</div>
+            <div class="amt">数量</div>
+            <div class="sub">小计</div>
+            <div class="oper">操作</div>
+        </div>
+        <!-- 商品自营1 -->
+        <div class="coms1">
+            <div class="comsd">
+                <div class="inpcom1"><input type="checkbox"><span class="spp1">商创自营</span></div>
             </div>
-            <!-- 导航栏主体 -->
-            <div class="user-mod">
-                <dl>
-                    <dt>
-                        <p class="square"> <span class="squarepuls"></span> -</p>
-                        <span>订单中心</span>
-                    </dt>
-                    <dd>
-                        <p>
-                            <a href="../html/user_order.html">我的订单</a>
-                        </p>
-                        <p>
-                            <a href="../html/user_address.html">收获地址</a>
-                        </p>
-                        <p>
-                            <a href="../html/user_quehuo.html">缺货等级</a>
-                        </p>
-                        <p>
-                            <a href="../html/user_tuihuan.html">退还货订单</a>
-                        </p>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <p class="square"> <span class="squarepuls"></span> -</p>
-                        <span>会员中心</span>
-                    </dt>
-                    <dd>
-                        <p>
-                            <a href="../html/user_data.html">用户信息</a>
-                        </p>
-                        <p>
-                            <a href="../html/user_security.html">账户安全</a>
-                        </p>
-                        <p>
-                            <a href="../html/user_binding.html" class="mod-active">账号绑定</a>
-                        </p>
-                        <p>
-                            <a href="../html/user_zhongchou.html">我的众筹</a>
-                        </p>
-                        <p>
-                            <a href="../html/user_shoucang.html">收藏/关注</a>
-                        </p>
-                        <p>
-                            <a href="../html/user_message.html">我的留言</a>
-                        </p>
-                        <p>
-                            <a href="../html/user_recommend.html">分销推荐</a>
-                        </p>
-                        <p>
-                            <a href="">评论/晒单</a>
-                        </p>
-                        <p>
-                            <a href="">我的提货</a>
-                        </p>
-                        <p>
-                            <a href="">交易纠纷</a>
-                        </p>
-                        <p>
-                            <a href="">我的发票</a>
-                        </p>
-                        <p>
-                            <a href="">违规举报</a>
-                        </p>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <p class="square"> <span class="squarepuls"></span> -</p>
-                        <span>账户中心</span>
-                    </dt>
-                    <dd>
-                        <p>
-                            <a href="../html/user_bonus.html">我的红包</a>
-                        </p>
-                        <p>
-                            <a href="">我的优惠券</a>
-                        </p>
-                        <p>
-                            <a href="">跟踪包裹</a>
-                        </p>
-                        <p>
-                            <a href="../html/user_fund.html">资金管理</a>
-                        </p>
-                        <p>
-                            <a href="">我的白条</a>
-                        </p>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <p class="square"> <span class="squarepuls"></span> -</p>
-                        <span>活动中心</span>
-                    </dt>
-                    <dd>
-                        <p>
-                            <a href="">拍卖活动</a>
-                        </p>
-                        <p>
-                            <a href="">夺宝奇兵</a>
-                        </p>
-                    </dd>
-                </dl>
-                <dl>
-                    <dt>
-                        <p class="square"> <span class="squarepuls"></span> -</p>
-                        <span>批发中心</span>
-                    </dt>
-                    <dd>
-                        <p>
-                            <a href="">我的采购单</a>
-                        </p>
-                        <p>
-                            <a href="">采购退货单</a>
-                        </p>
-                        <p>
-                            <a href="">我的求购单</a>
-                        </p>
-                    </dd>
-                </dl>
+            <!-- 商品1 -->
+            <div class="cmn">
+                <div class="cm1">
+                    <div class="cm1_input"><input type="checkbox"></div>
+                    <div class="cm1_list">
+                        <img src="../img/lf/clothing/xs-3.jpg" alt="">
+                        <p>新款学院风韩版时尚太空棉宽松长袖印花圆领卫衣女</p>
+                    </div>
+                    <div class="cm1_price">¥<span>230.67</span></div>
+                    <div class="cm1_amt">
+                        <div class="cm1_amt1">
+                            <span>1</span>
+                            <div class="but">
+                                <button class="bnt1">+</button>
+                                <button class="bnt2">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cm1_sub">¥<span>230.67</span></div>
+                    <div class="del"><a href="#">删除</a></div>
+                </div>
+                <!-- 商品2 -->
+                <div class="cm1">
+                    <div class="cm1_input"><input type="checkbox"></div>
+                    <div class="cm1_list">
+                        <img src="../img/lf/clothing/xs-9.jpg" alt="">
+                        <p>韩都衣舍秋冬喇叭长袖针织衫毛衣女套头宽松纯色百搭学生韩版打底 领券下单立减/单件包邮/先拍先发货！</p>
+                    </div>
+                    <div class="cm1_price">¥<span>1200</span></div>
+                    <div class="cm1_amt">
+                        <div class="cm1_amt1">
+                            <span>1</span>
+                            <div class="but">
+                                <button class="bnt1">+</button>
+                                <button class="bnt2">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cm1_sub">¥<span>1200</span></div>
+                    <div class="del"><a href="#">删除</a></div>
+                </div>
             </div>
         </div>
-        <!-- 主题123 -->
-        <div class="user-main">
-            <div class="user-tittle">
-                <h2>账号绑定</h2>
+        <!-- 绿联专卖 -->
+        <div class="coms1">
+            <div class="comsd">
+                <div class="inpcom1"><input type="checkbox">绿联专卖店</div>
             </div>
-            <div class="bind-qq">
-                <div class="bind-qq-tit">
-                    <i class="iconfont icon-qq"></i>
-                    <h2>绑定QQ账号</h2>
-                    <button>
-                        添加绑定
-                    </button>
+            <!-- 商品1 -->
+            <div class="cmn">
+                <div class="cm1">
+                    <div class="cm1_input"><input type="checkbox"></div>
+                    <div class="cm1_list">
+                        <img src="../img/lf/clothing/xs-11.jpg" alt="">
+                        <p>Apple/苹果 Apple Watch Series 2 智能手表42mm</p>
+                    </div>
+                    <div class="cm1_price">¥<span>3186.00</span></div>
+                    <div class="cm1_amt">
+                        <div class="cm1_amt1">
+                            <span>1</span>
+                            <div class="but">
+                                <button class="bnt1">+</button>
+                                <button class="bnt2">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cm1_sub">¥<span>3186.00</span></div>
+                    <div class="del"><a href="#">删除</a></div>
                 </div>
-                <div class="bind-qq-fot">
-                    <i class="iconfont icon-tishi"></i>
-                    <span>未绑定</span>
+                <!-- 商品2 -->
+                <div class="cm1">
+                    <div class="cm1_input"><input type="checkbox"></div>
+                    <div class="cm1_list">
+                        <img src="../img/lf/clothing/xs-6.jpg" alt="">
+                        <p>【新品发售】 Beats Beats Solo3 Wireless 头戴式无线蓝牙耳机 分期免息 全国联保 免费保修一年</p>
+                    </div>
+                    <div class="cm1_price">¥<span>1200</span></div>
+                    <div class="cm1_amt">
+                        <div class="cm1_amt1">
+                            <span>1</span>
+                            <div class="but">
+                                <button class="bnt1">+</button>
+                                <button class="bnt2">-</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cm1_sub">¥<span>1200</span></div>
+                    <div class="del"><a href="#">删除</a></div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- 总价 数量 -->
+    <div id="prices">
+        <div class="mesub">已选择:<span>0</span>件商品</div>
+        <div class="total">总价(不含运费):¥<span>0</span></div>
+        <div class="pay">去支付</div>
+    </div>
+    <div class="l_catetop">
+        <div class="l_limitim">
+            <div class="l_hd">
+                <h2>限时抢购</h2>
+                <h3>新品到货</h3>
+            </div>
+            <div class="l_bd">
+                <ul class="l_limitim-list">
+                    <li class="l_mod">
+                        <img src="../img/lf/clothing/0_thumb.jpg" alt="">
+                        <div class="l_price">
+                            ¥130.00
+                            <del>¥190.79</del>
+                        </div>
+                        <a href="#" class="l_name">YOHO有货潮牌LAL/数字贴布连帽套头卫衣男女通用 吴亦凡亲着同款 春夏焕新季，3.21日00:00开始抢购</a>
+                        <a href="#" class="l_list-btn">查看详情</a>
+                    </li>
+                    <li class="l_mod">
+                        <img src="../img/lf/clothing/0_thumb_1.jpg" alt="">
+                        <div class="l_price">
+                            ¥124.00
+                            <del>¥165.60</del>
+                        </div>
+                        <a href="#" class="l_name">贝妍夏季薄款女士睡衣性感V领女南韩丝家居服运动可外穿中袖套装</a>
+                        <a href="#" class="l_list-btn">查看详情</a>
+                    </li>
+                    <li class="l_mod">
+                        <img src="../img/lf/clothing/0_thumb_2.jpg" alt="">
+                        <div class="l_price">
+                            ¥130.00
+                            <del>¥199.20</del>
+                        </div>
+                        <a href="#" class="l_name">2017韩版女装夏装新款A字宽松松紧腰印花连衣裙DT7039乾 舒适松紧腰 A字版型 时尚印花</a>
+                        <a href="#" class="l_list-btn">查看详情</a>
+                    </li>
+                    <li class="l_mod">
+                        <img src="../img/lf/clothing/0_thumb_3.jpg" alt="">
+                        <div class="l_price">
+                            ¥40.00
+                            <del>¥78.00</del>
+                        </div>
+                        <a href="#" class="l_name">初棉纯色圆领长袖T恤打底衫秋衣女上衣体恤女士修身打底衣春秋 挺拔有型 棉氨材质 柔软舒适 耐洗耐磨</a>
+                        <a href="#" class="l_list-btn">查看详情</a>
+                    </li>
+                    <li class="l_mod">
+                        <img src="../img/lf/clothing/0_thumb_4.jpg" alt="">
+                        <div class="l_price">
+                            ¥420.00
+                            <del>¥540.00</del>
+                        </div>
+                        <a href="#" class="l_name">韩都衣舍2017韩版女装新款黑白拼接插肩棒球服春季短外套HH5597妠 朴信惠同款 黑白拼接 插肩袖 棒球服</a>
+                        <a href="#" class="l_list-btn">查看详情</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
     <div id="footer" class="foo-init">
         <div class="fotop">
             <div class="fotopxin">
@@ -1602,10 +1616,9 @@
             </div>
         </div>
     </div>
-    <script src="../js/jquery-3.5.1.js"></script>
-    <script src="../js/user_order.js"></script>
-    <script src="../js/public-header.js"></script>
+    <script src="../js/shopping.js"></script>
     <script src="../js/zcf-util.js"></script>
+    <script src="../js/public-header.js"></script>
 </body>
 
 </html>
